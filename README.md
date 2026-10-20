@@ -26,3 +26,14 @@ Sito statico responsive, senza dipendenze esterne.
 
 ## Nota
 Il modulo contatti apre WhatsApp e non invia dati a un server. Per un modulo email/server-side occorre configurare un servizio di form o backend.
+
+
+## V2 SEO
+- Meta title/description per pagina
+- Canonical URL
+- Open Graph / Twitter card
+- Schema.org LocalBusiness
+- sitemap.xml
+- robots.txt
+- Netlify security headers
+- Struttura URL statica mantenuta

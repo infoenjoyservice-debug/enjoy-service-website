@@ -1,0 +1,21 @@
+{
+  "files": [
+    "style.css",
+    "index.html",
+    "servizi.html",
+    "README.md",
+    "chi-siamo.html",
+    "script.js",
+    "contatti.html",
+    "zone-servite/milano.html",
+    "zone-servite/cinisello-balsamo.html",
+    "servizi/pulizie-professionali.html",
+    "servizi/sgomberi.html",
+    "servizi/pulizie-condomini.html",
+    "servizi/pulizie-appartamenti.html",
+    "servizi/pulizie-uffici.html",
+    "servizi/giardinaggio.html",
+    "servizi/manutenzioni.html"
+  ],
+  "zip": "/mnt/data/Enjoy_Service_SRL_Sito_v1.zip"
+}
