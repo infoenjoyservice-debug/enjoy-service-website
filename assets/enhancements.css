@@ -1,0 +1,15 @@
+/* Migliorie progressive: non sostituiscono lo stile originale */
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; scroll-padding-top: 85px; }
+:focus-visible { outline: 3px solid #b58b39; outline-offset: 3px; }
+a, button, input, select, textarea { -webkit-tap-highlight-color: transparent; }
+button, input, select, textarea { font: inherit; }
+img { max-width: 100%; height: auto; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+@media (max-width: 640px) {
+  input, select, textarea { max-width: 100%; }
+  a, button { touch-action: manipulation; }
+}
