@@ -1,2 +1,2 @@
-/* Compatibilita per eventuali pagine legacy. */
-@import url("/assets/enjoy-integrativo-20261024.css");
+/* Compatibilità per pagine legacy: percorso /servizi/style.css */
+@import url("/style.css");
