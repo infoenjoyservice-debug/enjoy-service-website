@@ -1,0 +1,66 @@
+ :root{
+  --dark:#171717;--gold:#c9a45c;--cream:#f7f3ea;--line:#e6e0d4;
+  --white:#fff;--muted:#625f58;--max:1120px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--dark);background:var(--white);font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:inherit}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+.skip-link{position:absolute;left:-9999px;top:8px;background:#fff;padding:10px 14px;z-index:99}
+.skip-link:focus{left:8px}
+.wrap{max-width:var(--max);margin:auto;padding:76px 24px}
+.header{background:var(--dark);color:#fff;position:sticky;top:0;z-index:20;box-shadow:0 5px 20px #0002}
+.header-inner{max-width:var(--max);margin:auto;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{text-decoration:none;font-size:21px;font-weight:800;letter-spacing:1px;white-space:nowrap}
+.brand span{color:var(--gold)}
+nav{display:flex;gap:20px;flex-wrap:wrap}
+nav a{text-decoration:none;font-size:14px;opacity:.92}
+nav a:hover{text-decoration:underline;text-underline-offset:4px}
+.hero{background:radial-gradient(circle at 75% 20%,#4c463c 0,#282621 34%,#151515 72%);color:#fff}
+.hero-inner{text-align:center;padding-top:110px;padding-bottom:110px}
+.eyebrow{margin:0 0 12px;color:var(--gold);font-weight:800;letter-spacing:2.5px;font-size:12px}
+.eyebrow.dark{color:#8c6c32}
+.hero h1{max-width:900px;margin:8px auto 18px;font-size:clamp(36px,6vw,62px);line-height:1.08;letter-spacing:-1.5px}
+.hero-lead{max-width:680px;margin:0 auto;font-size:19px;color:#eee}
+.actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;background:var(--gold);padding:13px 22px;border-radius:7px;text-decoration:none;color:#171717;font-weight:800;border:1px solid var(--gold);transition:transform .15s ease,box-shadow .15s ease}
+.btn:hover{transform:translateY(-1px);box-shadow:0 7px 18px #0003}
+.btn-secondary{background:transparent;color:#fff;border-color:#ffffff66}
+.section-heading{max-width:760px;margin-bottom:34px}
+h2{font-size:clamp(30px,4vw,42px);line-height:1.15;letter-spacing:-.5px;margin:0 0 12px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.cards article{position:relative;border:1px solid var(--line);border-radius:14px;padding:24px;background:#fff;min-height:190px;transition:transform .15s ease,box-shadow .15s ease}
+.cards article:hover{transform:translateY(-2px);box-shadow:0 12px 30px #17171712}
+.card-number{font-size:12px;color:#9a7a3c;font-weight:800;letter-spacing:1px}
+.cards h3{margin:8px 0 8px;font-size:20px}
+.cards p{margin:0;color:var(--muted)}
+.band{background:var(--cream)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+.split p{margin-top:0;color:var(--muted)}
+.review-placeholder{display:flex;gap:14px;flex-direction:column;border:1px dashed #c9bda8;border-radius:14px;padding:22px;background:#fff}
+.review-placeholder span{color:var(--muted)}
+.faq{display:grid;gap:12px;max-width:850px}
+details{background:#fff;border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+summary{cursor:pointer;font-weight:800}
+details p{margin:12px 0 0;color:var(--muted)}
+.contact{background:#171717;color:#fff}
+.contact-inner{display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:center}
+.contact h2{color:#fff}
+.contact-inner>div>p:not(.eyebrow){color:#d8d8d8}
+.contact-box{background:#24231f;border:1px solid #ffffff18;border-radius:14px;padding:24px}
+.contact-box p{margin:0 0 18px}
+.contact-box a:not(.btn){color:#fff}
+footer{background:#101010;color:#d5d5d5}
+.footer-inner{padding-top:28px;padding-bottom:28px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.footer-inner p{margin:0;font-size:14px}
+@media(max-width:760px){
+  .header-inner{align-items:flex-start;flex-direction:column}
+  nav{gap:12px 16px}
+  .hero-inner{padding-top:82px;padding-bottom:82px}
+  .split,.contact-inner{grid-template-columns:1fr;gap:24px}
+  .wrap{padding:58px 20px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.cards article{transition:none}}
+.contact-actions{display:flex;flex-wrap:wrap;gap:10px}
+.contact-box .contact-note{margin:14px 0 0;color:#bdbdbd;line-height:1.5}
