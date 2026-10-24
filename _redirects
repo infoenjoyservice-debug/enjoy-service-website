@@ -1,0 +1,10 @@
+# Vecchi indirizzi delle pagine servizi e zone, ora nelle sottocartelle
+/giardinaggio.html          /servizi/giardinaggio.html          301
+/manutenzioni.html          /servizi/manutenzioni.html          301
+/pulizie-appartamenti.html  /servizi/pulizie-appartamenti.html  301
+/pulizie-condomini.html     /servizi/pulizie-condomini.html     301
+/pulizie-professionali.html /servizi/pulizie-professionali.html 301
+/pulizie-uffici.html        /servizi/pulizie-uffici.html        301
+/sgomberi.html              /servizi/sgomberi.html              301
+/cinisello-balsamo.html     /zone-servite/cinisello-balsamo.html 301
+/milano.html                /zone-servite/milano.html           301
