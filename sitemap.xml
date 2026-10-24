@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://enjoy-service-cinisello-balsamo.netlify.app/</loc></url>
+  <url><loc>https://enjoy-service-cinisello-balsamo.netlify.app/privacy/</loc></url>
   <url><loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/pulizie-uffici/</loc></url>
   <url><loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/pulizie-condomini/</loc></url>
   <url><loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/pulizie-appartamenti/</loc></url>
@@ -12,4 +13,5 @@
   <url><loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/portineria/</loc></url>
   <url><loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/manutenzioni/</loc></url>
   <url><loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/ristrutturazioni/</loc></url>
+  <url><loc>https://enjoy-service-cinisello-balsamo.netlify.app/zone/monza-brianza/</loc></url>
 </urlset>
