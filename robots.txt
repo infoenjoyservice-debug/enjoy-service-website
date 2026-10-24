@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://enjoy-service-cinisello-balsamo.netlify.app/sitemap.xml
