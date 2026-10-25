@@ -1,0 +1,6 @@
+# MODELLO PER IL TECNICO — non attivo, non rinominare senza configurazione.
+# Sostituire DOMINIO-ACQUISTATO.it con il dominio reale gia funzionante in HTTPS.
+# Aggiungere le righe all'inizio del file _redirects esistente nella cartella pubblicata.
+# Conservare tutte le altre regole e controllare assenza di cicli.
+# https://enjoy-service-cinisello-balsamo.netlify.app/* https://DOMINIO-ACQUISTATO.it/:splat 301!
+# http://enjoy-service-cinisello-balsamo.netlify.app/* https://DOMINIO-ACQUISTATO.it/:splat 301!

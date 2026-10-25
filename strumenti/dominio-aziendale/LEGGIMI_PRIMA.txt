@@ -1,0 +1,76 @@
+ENJOY SERVICE — KIT INTEGRATIVO DOMINIO AZIENDALE
+25 ottobre 2026
+
+STATO: DA CONFIGURARE CON IL DOMINIO REALE
+Non caricare questo ZIP da solo su Netlify: non contiene il sito completo.
+Il dominio personalizzato non e stato indicato e non viene inventato.
+Nessuna modifica e stata eseguita sul sito online o sulla scheda Google.
+
+PERCORSO PIU SEMPLICE
+1. Apri il progetto Enjoy Service nel tuo account Netlify.
+2. In Domain management aggiungi il dominio acquistato.
+3. Configura DNS seguendo i valori mostrati da Netlify per il tuo progetto.
+   Non sono inclusi IP o nameserver generici: dipendono dalla configurazione.
+4. Imposta il dominio principale e attendi certificato HTTPS attivo.
+5. Apri il nuovo dominio e controlla servizi, immagini, contatti e pagine interne.
+6. Completa l'integrazione con il configuratore incluso, oppure fai applicare
+   al tecnico il modello redirect e l'aggiornamento SEO descritti sotto.
+7. Pubblica l'intera cartella del sito con l'integrazione incorporata.
+8. Aggiorna Google Maps e gli altri canali.
+
+CONFIGURATORE PER IL TECNICO / PC CON PYTHON 3
+Occorre la copia completa corrente del sito statico, con index.html alla radice.
+Se il progetto genera le pagine con un framework, aggiornare invece sorgenti e
+configurazione del framework: questa utility e per l'output statico esportato.
+
+Eseguire, sostituendo dominio e percorso con i dati reali:
+python3 prepara_integrazione.py --sito "/percorso/copia-sito" --dominio "https://DOMINIO-ACQUISTATO.it" --https-verificato
+
+Il flag conferma un controllo manuale: lo script non verifica DNS o HTTPS online.
+Si ottiene Enjoy_Service_PATCH_Dominio.zip, contenente soltanto i file modificati.
+Integrare questi file nella copia completa e caricare la cartella risultante.
+Non pubblicare la patch da sola: un nuovo deploy manuale deve contenere il sito completo.
+
+COSA PREPARA
+- Redirect 301 dal vecchio host Netlify al nuovo, conservando il percorso.
+- Conservazione delle altre regole presenti in _redirects, dopo le nuove regole.
+- Sostituzione del vecchio host nei file HTML, XML, TXT, JSON e webmanifest.
+  Questo aggiorna canonical, sitemap, robots e dati strutturati solo se gia presenti
+  e se usano esattamente il vecchio host. Non inventa pagine o metadati mancanti.
+- Originali invariati; ZIP separato e resoconto dei file da integrare.
+
+CONTROLLO SEO DA COMPLETARE
+Ogni pagina deve indicare come canonical il proprio URL sul dominio principale.
+La sitemap deve elencare soltanto URL pubblici esistenti del dominio principale.
+Il riferimento Sitemap in robots.txt deve puntare alla sitemap aggiornata.
+Verificare anche URL in JS/CSS, canonical relativi, altri domini e configurazioni
+netlify.toml. Non usare un unico canonical della homepage su tutte le pagine.
+Non aggiungere noindex al sito pubblico durante il passaggio.
+
+GOOGLE MAPS — MODIFICA MANUALE
+Con l'account che gestisce la scheda:
+Cerca Enjoy Service su Google > Modifica profilo > Contatto > Sito web.
+Inserisci il nuovo URL HTTPS e salva; i nomi delle voci possono variare.
+Controlla poi il link pubblico e aggiorna Facebook, Instagram, TikTok, LinkedIn
+e le directory gestite dall'azienda con lo stesso indirizzo principale.
+In Search Console verifica il nuovo dominio, invia la sitemap e valuta lo
+strumento Cambio di indirizzo se applicabile alla proprieta di origine.
+
+VERIFICA FINALE
+- Homepage e almeno una pagina servizio funzionano sul nuovo dominio.
+- Gli stessi vecchi URL Netlify arrivano alle pagine corrispondenti.
+- Nessun ciclo di redirect; foto, telefono, WhatsApp e moduli funzionano.
+- Canonical, sitemap e dati aziendali indicano la destinazione corretta.
+- La scheda Google apre il nuovo sito.
+Conservare i redirect permanenti almeno un anno e possibilmente piu a lungo.
+Per annullare la modifica ripubblicare la copia completa precedente e ripristinare
+il dominio principale precedente in Netlify, se modificato.
+
+IDENTITA AZIENDALE
+Non collegare siti di aziende omonime senza verificarne titolarita e dati.
+Un host Netlify non comporta di per se una penalizzazione SEO.
+
+FONTI OPERATIVE
+https://docs.netlify.com/manage/routing/redirects/overview/
+https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes
+https://support.google.com/business/answer/3039617?hl=it
