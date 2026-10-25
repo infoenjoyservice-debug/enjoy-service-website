@@ -3,7 +3,7 @@
   const profili = {
     "facebook": "https://www.facebook.com/share/1Gq5n1i7Nt/",
     "instagram": "",
-    "tiktok": "https://www.tiktok.com/@enjoy.service.srl?_r=1&_t=ZN-9AiM2FfpBt0",
+    "tiktok": "https://www.tiktok.com/@enjoy.service.srl",
     "linkedin": ""
 };
   const domini = {facebook: ['facebook.com', 'www.facebook.com', 'm.facebook.com'], instagram: ['instagram.com', 'www.instagram.com'], tiktok: ['tiktok.com', 'www.tiktok.com'], linkedin: ['linkedin.com', 'www.linkedin.com', 'it.linkedin.com']};
