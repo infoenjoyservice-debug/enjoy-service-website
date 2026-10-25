@@ -1,0 +1,2 @@
+/* I profili senza URL restano configurabili, ma non si presentano come link attivi. */
+.enjoy-social .enjoy-social-pending { display: none; }
