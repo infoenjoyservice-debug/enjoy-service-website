@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
 (() => {
   function addGoogleLinks() {
     if (document.getElementById('enjoy-google-links')) return;
-    const social = document.querySelector('#azienda .enjoy-social');
-    const company = document.querySelector('#azienda .split > div:last-child');
+    const social = document.querySelector('#presenze-online .enjoy-social, #azienda .enjoy-social');
+    const company = document.querySelector('#presenze-online .wrap, #azienda .split > div:last-child');
     if (!social && !company) return;
     const section = document.createElement('section');
     section.id = 'enjoy-google-links';
