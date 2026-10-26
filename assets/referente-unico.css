@@ -1,0 +1,16 @@
+/* ENJOY SERVICE — Posizionamento "Un solo referente" (homepage) */
+.hero-points{list-style:none;padding:0;margin:26px 0 0;display:flex;flex-wrap:wrap;gap:10px 26px;color:var(--muted)}
+.hero-points li::before{content:"✓ ";color:var(--gold);font-weight:700}
+.hero-zones{margin:18px 0 0;font-weight:700;letter-spacing:.04em;color:var(--ink)}
+.card .ru-chain{font-weight:700;color:var(--gold)}
+.ru-claim{margin-top:30px;font-size:1.15rem;font-weight:700}
+.cards.ru-5{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.ru-steps{list-style:none;padding:0;margin:30px 0 0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;counter-reset:ru}
+.ru-steps li{counter-increment:ru;padding:24px;border:1px solid #47443d;border-radius:10px;background:var(--panel)}
+.ru-steps li::before{content:"0" counter(ru);display:block;color:var(--gold);font-size:13px;font-weight:700;letter-spacing:.1em;margin-bottom:8px}
+.ru-final{text-align:center}
+.ru-final .intro{margin-inline:auto}
+.ru-final .actions{justify-content:center}
+.ru-final .ru-claim{color:var(--gold)}
+@media(max-width:900px){.ru-steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.ru-steps{grid-template-columns:minmax(0,1fr)}}
