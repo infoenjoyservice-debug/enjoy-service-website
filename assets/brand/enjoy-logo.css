@@ -3,3 +3,16 @@ a.brand.enjoy-logo-link{display:inline-flex;align-items:center;flex-shrink:0;max
 a.brand.enjoy-logo-link img.enjoy-logo{display:block;width:300px;height:auto;max-width:100%;object-fit:contain}
 @media(max-width:767px){a.brand.enjoy-logo-link img.enjoy-logo{width:260px}}
 @media(max-width:360px){a.brand.enjoy-logo-link img.enjoy-logo{width:230px}}
+
+/* Enjoy Service: badge pubblico Netlify e icone Google. */
+iframe#nl-badge-frame,iframe[title="Powered by Netlify"]{display:none!important}
+.enjoy-google-links{margin:24px 0}
+.enjoy-google-links h3{margin:0 0 14px}
+.enjoy-google-list{display:flex;flex-wrap:wrap;gap:12px}
+.enjoy-google-item{display:flex;align-items:center;gap:12px;padding:14px 18px;border:1px solid #b38b43;border-radius:10px;color:inherit;text-decoration:none;min-height:48px;box-sizing:border-box}
+.enjoy-google-item:hover{border-color:#e6c477;background:rgba(179,139,67,.12)}
+.enjoy-google-item:focus-visible{outline:3px solid #e6c477;outline-offset:4px}
+.enjoy-google-item strong,.enjoy-google-item small{display:block}
+.enjoy-google-item small{font-size:.8rem;margin-top:3px}
+.enjoy-google-icon{display:flex;align-items:center;justify-content:center;width:38px;height:38px;flex-shrink:0;background:#fff;border-radius:50%}
+@media(max-width:480px){.enjoy-google-item{width:100%}}
