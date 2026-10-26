@@ -6,3 +6,6 @@
 
 /strumenti/*
   X-Robots-Tag: noindex, nofollow
+
+/seo/*
+  X-Robots-Tag: noindex, nofollow
