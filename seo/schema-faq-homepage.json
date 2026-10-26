@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Posso richiedere un sopralluogo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sì. Indica il servizio richiesto e l'indirizzo dell'immobile: Enjoy Service valuta la soluzione più adatta."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Effettuate interventi continuativi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sì. È possibile richiedere un preventivo per pulizie programmate e servizi continuativi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Come ricevo un preventivo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Invia tipologia di servizio, località e dettagli dell'immobile. Ti ricontatteremo per valutare la soluzione."
+      }
+    }
+  ]
+}
