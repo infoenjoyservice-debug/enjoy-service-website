@@ -1,0 +1,18 @@
+/* CSS comune ai 3 case study */
+.es-case-study{max-width:1100px;margin:56px auto;padding:28px;border:1px solid rgba(0,0,0,.1);border-radius:20px;background:#fff}
+.es-case-kicker{font-size:.75rem;font-weight:800;letter-spacing:.12em;margin:0 0 8px}
+.es-case-study h2{margin:0 0 24px;font-size:clamp(1.6rem,3.5vw,2.3rem);line-height:1.15}
+.es-case-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:30px;align-items:start}
+.es-case-study h3{font-size:1rem;margin:20px 0 7px}
+.es-case-study h3:first-child{margin-top:0}
+.es-case-study p{line-height:1.6;margin:0}
+.es-case-meta{padding-left:18px;line-height:1.8}
+.es-case-images{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.es-case-images figure{margin:0;position:relative}
+.es-case-images img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px;background:#f2f2f2}
+.es-case-images figcaption{position:absolute;left:10px;top:10px;padding:5px 8px;border-radius:999px;background:rgba(0,0,0,.78);color:#fff;font-size:.68rem;font-weight:800}
+.es-proof-box{min-height:190px;border:1px dashed rgba(0,0,0,.25);border-radius:14px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px}
+.es-proof-box span{margin-top:8px;font-size:.9rem;opacity:.75}
+.es-case-cta{display:inline-block;margin-top:24px;font-weight:800;text-decoration:none}
+@media(max-width:760px){.es-case-study{margin:40px 16px;padding:20px}.es-case-grid{grid-template-columns:1fr}.es-case-images{grid-template-columns:1fr 1fr}}
+@media(max-width:500px){.es-case-images{grid-template-columns:1fr}}
