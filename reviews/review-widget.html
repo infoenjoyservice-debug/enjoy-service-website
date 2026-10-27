@@ -1,0 +1,61 @@
+<section class="es-reviews" id="recensioni">
+  <div class="es-reviews__inner">
+    <p class="es-reviews__eyebrow">La tua opinione conta</p>
+    <h2>Cosa pensano i nostri clienti</h2>
+    <p class="es-reviews__intro">
+      Hai già usufruito dei servizi Enjoy Service? Raccontaci la tua esperienza.
+    </p>
+
+    <div class="es-review-actions">
+      <a class="es-btn es-btn--primary"
+         id="es-google-review"
+         href="#"
+         target="_blank"
+         rel="noopener">
+        ★ Lascia una recensione su Google
+      </a>
+      <a class="es-btn es-btn--secondary" href="#scrivi-recensione">
+        Scrivi una recensione
+      </a>
+    </div>
+
+    <div class="es-review-note">
+      <strong>Grazie per la fiducia.</strong>
+      Le recensioni autentiche dei nostri clienti ci aiutano a migliorare e a far conoscere il nostro servizio.
+    </div>
+
+    <div class="es-review-form" id="scrivi-recensione">
+      <h3>Scrivi una recensione</h3>
+      <form action="INSERISCI_QUI_LA_DESTINAZIONE_DEL_FORM" method="post">
+        <label>
+          Nome
+          <input type="text" name="name" autocomplete="name" required>
+        </label>
+
+        <label>
+          Valutazione
+          <select name="rating" required>
+            <option value="">Seleziona</option>
+            <option value="5">★★★★★ — 5</option>
+            <option value="4">★★★★☆ — 4</option>
+            <option value="3">★★★☆☆ — 3</option>
+            <option value="2">★★☆☆☆ — 2</option>
+            <option value="1">★☆☆☆☆ — 1</option>
+          </select>
+        </label>
+
+        <label>
+          Recensione
+          <textarea name="review" rows="5" required></textarea>
+        </label>
+
+        <label class="es-check">
+          <input type="checkbox" name="consent" required>
+          <span>Acconsento all'uso della mia recensione sul sito.</span>
+        </label>
+
+        <button class="es-btn es-btn--primary" type="submit">Invia recensione</button>
+      </form>
+    </div>
+  </div>
+</section>
