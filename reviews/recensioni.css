@@ -1,0 +1,58 @@
+.es-recensioni{
+  padding:70px 20px;
+  background:#f7f8fa;
+}
+.es-recensioni-box{
+  max-width:850px;
+  margin:0 auto;
+  padding:42px 32px;
+  text-align:center;
+  background:#fff;
+  border:1px solid #e5e7eb;
+  border-radius:18px;
+  box-shadow:0 8px 30px rgba(0,0,0,.06);
+}
+.es-recensioni-label{
+  display:block;
+  margin-bottom:10px;
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+.es-recensioni h2{
+  margin:0 0 12px;
+  font-size:clamp(28px,5vw,42px);
+}
+.es-recensioni p{
+  max-width:650px;
+  margin:0 auto 18px;
+  line-height:1.65;
+}
+.es-recensioni-stars{
+  margin:12px 0 24px;
+  font-size:28px;
+  letter-spacing:4px;
+}
+.es-recensioni-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:50px;
+  padding:0 24px;
+  border-radius:10px;
+  background:#111;
+  color:#fff;
+  text-decoration:none;
+  font-weight:700;
+  transition:transform .15s ease,opacity .15s ease;
+}
+.es-recensioni-btn:hover{
+  transform:translateY(-1px);
+  opacity:.92;
+}
+@media(max-width:600px){
+  .es-recensioni{padding:50px 16px}
+  .es-recensioni-box{padding:32px 20px}
+  .es-recensioni-btn{width:100%;box-sizing:border-box}
+}
