@@ -1,0 +1,13 @@
+/* Enjoy Service — intestazione condivisa per homepage e lavori. */
+.es-site-header.es-site-header{display:block;position:relative;top:auto;inset-inline:auto;z-index:50;margin:0;padding:0;background:#101416;color:#f7f4ec;border:0;border-bottom:1px solid #33383a;box-shadow:none;width:100%;font:14px/1.5 Arial,sans-serif}
+.es-site-header .es-site-header__inner{max-width:1250px;margin:0 auto;padding:24px;display:flex;align-items:center;justify-content:space-between;gap:24px;box-sizing:border-box}
+.es-site-header .es-site-brand{display:block;flex:0 0 280px;max-width:100%;padding:0;margin:0;line-height:1;text-decoration:none}
+.es-site-header .es-site-brand img{display:block;width:280px;max-width:100%;height:auto;object-fit:contain;margin:0;border:0;border-radius:0}
+.es-site-header nav.es-site-menu{display:flex;align-items:center;justify-content:center;flex:1;flex-wrap:wrap;gap:12px 16px;margin:0;padding:0;min-width:0}
+.es-site-header .es-site-menu a{display:inline-flex;align-items:center;min-height:44px;margin:0;padding:0;text-decoration:none;color:#e5e3de;font:14px/1.4 Arial,sans-serif;white-space:nowrap;overflow-wrap:normal}
+.es-site-header .es-site-menu a:hover,.es-site-header .es-site-menu a[aria-current="page"]{color:#d7b777;text-decoration:underline;text-underline-offset:5px}
+.es-site-header .es-site-quote{display:inline-flex;flex-shrink:0;align-items:center;justify-content:center;min-height:46px;padding:12px 20px;background:#d7b777;color:#171512;border:1px solid #d7b777;border-radius:5px;text-decoration:none;font:700 14px/1.4 Arial,sans-serif;white-space:nowrap;box-sizing:border-box}
+.es-site-header a:focus-visible{outline:3px solid #efcf8d;outline-offset:4px}
+@media(max-width:1100px){.es-site-header .es-site-header__inner{flex-wrap:wrap;gap:14px;padding-block:18px}.es-site-header nav.es-site-menu{order:3;flex-basis:100%;justify-content:flex-start;border-top:1px solid #33383a;padding-top:8px}}
+@media(max-width:560px){.es-site-header .es-site-header__inner{padding:14px 18px;gap:12px}.es-site-header .es-site-brand{flex-basis:190px;flex-shrink:1}.es-site-header .es-site-brand img{width:190px}.es-site-header .es-site-quote{font-size:12px;padding:10px 12px;min-height:44px}.es-site-header nav.es-site-menu{gap:2px 16px}.es-site-header .es-site-menu a{font-size:13px}}
+@media(max-width:360px){.es-site-header .es-site-brand{flex-basis:160px}.es-site-header .es-site-quote{padding:10px 8px}}
