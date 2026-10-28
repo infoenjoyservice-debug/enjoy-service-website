@@ -1,0 +1,78 @@
+.es-google-reviews {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 64px 24px;
+}
+
+.es-google-head {
+  max-width: 760px;
+  margin-bottom: 24px;
+}
+
+.es-google-eyebrow {
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+}
+
+.es-google-summary {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0 28px;
+}
+
+.es-google-summary [aria-hidden="true"],
+.es-google-stars {
+  letter-spacing: .08em;
+}
+
+.es-google-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.es-google-card {
+  padding: 22px;
+  border: 1px solid rgba(0,0,0,.10);
+  border-radius: 16px;
+  background: #fff;
+}
+
+.es-google-card p {
+  margin: 12px 0;
+}
+
+.es-google-card small {
+  display: block;
+  margin-top: 6px;
+  opacity: .7;
+}
+
+.es-google-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
+.es-google-actions a {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+.es-google-attribution {
+  display: block;
+  margin-top: 18px;
+  opacity: .7;
+}
+
+@media (max-width: 800px) {
+  .es-google-list {
+    grid-template-columns: 1fr;
+  }
+}
