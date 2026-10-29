@@ -1,0 +1,28 @@
+CONTROLLO DOPO DEPLOY
+
+1. Apri:
+https://TUO-DOMINIO/api/google-reviews
+
+2. Deve apparire:
+{"ok":true,"place":...}
+
+3. Apri la Home.
+
+4. Verifica:
+[ ] Footer: "Un solo referente per il tuo immobile"
+[ ] Sezione: "Cosa dicono i nostri clienti"
+[ ] Rating Google
+[ ] Numero recensioni
+[ ] Recensioni visibili
+[ ] Link "Leggi le recensioni su Google"
+[ ] Mobile corretto
+
+SE /api/google-reviews RESTITUISCE 500:
+controlla GOOGLE_PLACES_API_KEY su Netlify.
+
+SE RESTITUISCE UN ERRORE GOOGLE:
+controlla che Places API (New) sia abilitata e che la chiave abbia accesso.
+
+SE L'API FUNZIONA MA LA SEZIONE NON APPARE:
+controlla che /enjoy-service-integration.js sia realmente servito dal dominio e che nella Home esista:
+<script src="/enjoy-service-integration.js" defer></script>
