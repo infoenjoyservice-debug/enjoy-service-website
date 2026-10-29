@@ -1,0 +1,12 @@
+/* Enjoy Service: unica sezione recensioni, 29/10/2026. */
+.es-reviews-unified{padding:40px 0;background:#111618;color:#f5f3eb;border-block:1px solid #75613b}
+.es-reviews-unified h2{color:#f5f3eb;margin:8px 0 14px;font-size:clamp(1.5rem,4vw,2rem)}
+.es-reviews-unified p{max-width:800px;line-height:1.65;color:#e5e3de}
+.es-reviews-unified .google-reviews__eyebrow{color:#d7b777;font-weight:700;letter-spacing:.08em}
+.es-reviews-actions{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0}
+.es-reviews-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;box-sizing:border-box;padding:12px 18px;border:1px solid #d7b777;border-radius:6px;color:#171512;background:#d7b777;text-decoration:none;font-weight:700;line-height:1.4;text-align:center}
+.es-reviews-actions a+a{background:transparent;color:#f5f3eb}
+.es-reviews-actions a:hover{text-decoration:underline;text-underline-offset:3px}
+.es-reviews-actions a:focus-visible{outline:3px solid #efcf8d;outline-offset:4px}
+.es-reviews-unified .es-reviews-note{font-size:.88rem;color:#c8c8c2}
+@media(max-width:560px){.es-reviews-actions{flex-direction:column}.es-reviews-actions a{width:100%}.es-reviews-unified{padding:28px 0}}
