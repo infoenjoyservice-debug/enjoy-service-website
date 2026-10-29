@@ -1,6 +1,7 @@
 const PLACE_ID = "ChIJMZIYl5u_hkcRNqvBLpj1bi8";
 const GOOGLE_ENDPOINT =
   `https://places.googleapis.com/v1/places/${PLACE_ID}?languageCode=it&regionCode=IT`;
+const NO_STORE = { "cache-control": "no-store" };
 
 export default async () => {
   const apiKey =
@@ -10,7 +11,8 @@ export default async () => {
   if (!apiKey) {
     return json(
       { ok: false, error: "GOOGLE_PLACES_API_KEY non configurata su Netlify" },
-      500
+      503,
+      NO_STORE
     );
   }
 
@@ -34,7 +36,8 @@ export default async () => {
             data?.error?.message ||
             `Google Places API ha restituito HTTP ${response.status}`
         },
-        response.status
+        response.status,
+        NO_STORE
       );
     }
 
@@ -46,7 +49,8 @@ export default async () => {
   } catch (error) {
     return json(
       { ok: false, error: "Errore di collegamento a Google Places API" },
-      502
+      502,
+      NO_STORE
     );
   }
 };

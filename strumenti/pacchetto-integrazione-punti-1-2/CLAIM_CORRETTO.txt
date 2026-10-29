@@ -1,0 +1,10 @@
+CLAIM UNIFICATO
+
+Vecchio claim da eliminare:
+Un solo partner, mille soluzioni.
+
+Nuovo claim:
+Un solo referente per il tuo immobile
+
+Lo script sostituisce automaticamente il vecchio testo presente nelle pagine caricate.
+Per un risultato definitivo, è comunque consigliato fare una ricerca globale nel progetto originale e sostituire manualmente ogni occorrenza residua.
