@@ -1,0 +1,14 @@
+CHECKLIST FINALE
+
+[ ] File enjoy-service-integration.js copiato nella root
+[ ] File google-reviews.mjs copiato in netlify/functions/
+[ ] <script src="/enjoy-service-integration.js" defer></script> inserito
+[ ] GOOGLE_PLACES_API_KEY configurata su Netlify
+[ ] Deploy eseguito sul PROGETTO ORIGINALE COMPLETO
+[ ] Home: sezione "Cosa dicono i nostri clienti" visibile
+[ ] Home: rating/numero recensioni visibili quando API disponibile
+[ ] Link Google funzionante
+[ ] Footer: nessuna occorrenza del vecchio claim
+[ ] Ricerca globale progetto: "Un solo partner, mille soluzioni." = 0 risultati
+[ ] Ricerca globale progetto: "Un solo referente per il tuo immobile" = presente
+[ ] /api/google-reviews restituisce ok:true
