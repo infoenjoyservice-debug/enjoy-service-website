@@ -1,67 +1,260 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000207169.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000053804.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000197678.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000207159.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000033491.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/pulizie-uffici/</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000056055.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000156853.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/pulizie-condomini/</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000241952.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000053804.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/pulizie-appartamenti/</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000207159.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000207169.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/pulizie-post-ristrutturazione/</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/pulizie-negozi/</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000033491.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/pulizie-bb/</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/traslochi-sgomberi/</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000197678.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000218850.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/giardinaggio/</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000200269.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000200270.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/portineria/</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/manutenzioni/</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000206322.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi/ristrutturazioni/</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000206241.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000206376.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/zone/monza-brianza/</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/lavori/</loc>
-  <lastmod>2026-10-30</lastmod></url>
+    <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000022783.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000122194.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000207159.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000207169.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/39657.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/39667.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000273495.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000273496.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000243218.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000243219.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000241952.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000241660.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000242462.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000200269.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000200270.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000156853.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/39658.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/39660.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000033491.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000053798.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000053804.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000054105.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000056055.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000197678.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000206247.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000206241.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000206376.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000206322.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000218850.webp</image:loc>
+    </image:image>
+  </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/zone/</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/zone/milano/</loc>
@@ -70,18 +263,42 @@
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/pulizie-appartamenti-cinisello-balsamo</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000207159.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000207169.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/pulizie-condomini-cinisello-balsamo</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000241952.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000053804.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/pulizie-condomini-milano</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000241952.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000053804.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/pulizie-condomini-monza</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000241952.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000053804.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/pulizie-post-ristrutturazione-cinisello-balsamo</loc>
@@ -90,14 +307,32 @@
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/pulizie-uffici-cinisello-balsamo</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000056055.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000156853.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/pulizie-uffici-milano</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000056055.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000156853.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/pulizie-uffici-monza</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000056055.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000156853.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/servizi-amministratori-condominio-cinisello-balsamo</loc>
