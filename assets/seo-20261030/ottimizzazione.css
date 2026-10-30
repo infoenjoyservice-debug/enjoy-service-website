@@ -1,0 +1,18 @@
+/* Migliorie editoriali e accessibilità, 30 ottobre 2026 */
+.es-seo-proof{max-width:1180px;margin:0 auto;padding:42px 24px}.es-seo-proof h2{font-size:clamp(26px,3vw,38px)}
+.es-seo-proof figure{margin:0;min-width:0}.es-seo-proof figure img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px}
+.es-seo-proof figcaption{font-size:14px;line-height:1.5;padding-top:10px;color:inherit}
+.es-seo-photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin:24px 0}
+.es-seo-links{display:flex;flex-wrap:wrap;gap:12px 22px;margin-top:24px}.es-seo-links a{color:inherit;text-decoration:underline;text-underline-offset:4px;min-height:44px;display:inline-flex;align-items:center}
+.es-home-seo .hero h1{font-size:clamp(34px,4.8vw,62px);max-width:970px;text-wrap:balance}.es-home-seo .hero .lead{max-width:790px}
+.es-home-seo .hero-points{margin-bottom:0}.es-home-seo #servizi .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+.es-home-seo .es-about__inner>.es-why,.es-home-seo .es-about__inner>.es-transparency{margin-top:28px}
+.es-home-seo .es-about__hero{align-items:center}.es-home-seo .es-hero-trust{margin-top:20px}
+.es-home-seo #recensioni-google{padding-block:40px}.es-home-seo #servizi .es-extra-services{margin-top:24px}
+.es-home-seo #servizi .es-extra-services a{color:var(--gold,#d7b777)}
+.es-seo-proof .es-photo-label{font-weight:bold;margin-bottom:10px}section[id],figure[id]{scroll-margin-top:24px}
+.es-seo-proof a:focus-visible{outline:3px solid #b38b43;outline-offset:4px}
+@media(max-width:680px){.es-seo-photo-grid,.es-home-seo #servizi .cards{grid-template-columns:1fr}.es-seo-proof{padding:30px 18px}.es-home-seo .hero{padding-block:38px}}
+
+/* Contrasto del menu su sfondo scuro, anche nelle pagine servizio. */
+header nav a,header .nav a,header>.wrap>a[href^="tel:"]{color:#f7f4ec}header nav a:hover,header .nav a:hover{color:#d7b777}

@@ -1,0 +1,72 @@
+/* /assets/lavori.css */
+/* Sezione lavori Enjoy Service: selettori isolati per proteggere il sito esistente. */
+.esl-section{color:#f7f4ec;background:#171c20;padding:64px 0}.esl-wrap{max-width:1180px;margin:auto;padding:0 24px}.esl-kicker{color:#d7b777;font:700 12px/1.6 Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase}.esl-section h2{font:700 clamp(28px,4vw,42px)/1.2 Georgia,serif;margin:10px 0 18px}.esl-intro{max-width:760px;color:#c3c0b8}.esl-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:28px}.esl-card{margin:0;min-width:0;background:#181c20;border:1px solid #47443d;border-radius:10px;overflow:hidden;display:flex;flex-direction:column}.esl-card img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;background:#0e1114}.esl-card a{color:#d7b777}.esl-body{padding:22px}.esl-body h3{font:700 23px/1.2 Georgia,serif;margin:0 0 12px}.esl-body p{color:#c3c0b8;line-height:1.65;margin:0 0 16px}.esl-link{display:inline-block;padding:13px 20px;background:#d7b777;color:#171512!important;border-radius:6px;font-weight:700;text-decoration:none}.esl-actions{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:28px}.esl-actions a:not(.esl-link){color:#d7b777}.esl-page{margin:0;background:#0e1114;color:#f7f4ec;font:16px/1.65 Arial,sans-serif}.esl-page *{box-sizing:border-box}.esl-page a{color:#d7b777;overflow-wrap:anywhere}.esl-page :focus-visible,.esl-section :focus-visible{outline:3px solid #efcf8d;outline-offset:4px}.esl-page header{padding:22px 0;border-bottom:1px solid #47443d}.esl-header{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.esl-brand{font-weight:700;text-decoration:none;letter-spacing:.08em}.esl-page nav{display:flex;flex-wrap:wrap;gap:20px}.esl-page main{padding:48px 0 64px}.esl-page h1{font:700 clamp(36px,5vw,64px)/1.12 Georgia,serif;margin:14px 0 22px}.esl-page h2{font:700 clamp(26px,3.5vw,38px)/1.2 Georgia,serif}.esl-page .esl-intro{font-size:18px}.esl-filters{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0 12px}.esl-filters button{background:#181c20;border:1px solid #8c887d;border-radius:24px;padding:11px 16px;color:#f7f4ec;font:inherit;cursor:pointer}.esl-filters button[aria-pressed=true]{background:#d7b777;color:#171512;border-color:#d7b777}.esl-count{color:#c3c0b8;font-size:14px}.esl-card figcaption{padding:18px}.esl-card figcaption small{display:block;color:#c3c0b8}.esl-cta{margin-top:46px;padding:30px;border:1px solid #47443d;border-radius:10px;background:#181c20}.esl-page footer{padding:28px 0;border-top:1px solid #47443d}.esl-page [hidden],.esl-section [hidden]{display:none!important}.esl-skip{position:absolute;top:-200px;left:12px;background:white;color:black!important;padding:12px;z-index:100}.esl-skip:focus{top:12px}.esl-note{color:#c3c0b8;font-size:14px}.esl-image-link{display:block}.esl-image-link:hover img{opacity:.9}@media(max-width:800px){.esl-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:540px){.esl-grid{grid-template-columns:minmax(0,1fr)}.esl-wrap{padding-inline:18px}.esl-section{padding-block:42px}.esl-page main{padding-top:30px}.esl-cta{padding:22px}}
+
+/* /assets/prima-dopo.css */
+/* Prima/Dopo — pagina Lavori e teaser Home. Selettori isolati, palette del sito (oro #d7b777 su scuro). */
+.es-before-after{margin:48px 0 56px;scroll-margin-top:24px}
+.es-bad-head{max-width:760px;margin:0 auto 32px;text-align:center}
+.es-before-after .es-eyebrow,.es-home-bad .es-eyebrow{color:#d7b777;font:700 12px/1.6 Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin:0 0 8px}
+.es-bad-head h2{margin:0 0 12px;font:700 clamp(28px,4vw,40px)/1.15 Georgia,serif}
+.es-bad-head p{margin:0;line-height:1.6;color:#c3c0b8}
+.es-bad-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.es-bad-card{border:1px solid #47443d;border-radius:12px;padding:16px;background:#181c20;overflow:hidden;display:flex;flex-direction:column}
+.es-bad-label{font:700 20px/1.25 Georgia,serif;margin:2px 0 14px}
+.es-bad-pair{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:relative}
+.es-bad-pair figure,.es-bad-single{margin:0;overflow:hidden;border-radius:8px;background:#0e1114}
+.es-bad-pair figure{aspect-ratio:3/4}
+.es-bad-single{aspect-ratio:4/3}
+.es-bad-pair img,.es-bad-single img{display:block;width:100%;height:100%;object-fit:cover}
+.es-bad-single img{object-fit:contain}
+.es-badge{position:absolute;top:10px;padding:5px 9px;border-radius:999px;background:rgba(14,17,20,.85);color:#f7f4ec;font:700 11px/1.2 Arial,sans-serif;letter-spacing:.08em}
+.es-badge-before{left:10px}
+.es-badge-after{left:calc(50% + 14px)}
+.es-bad-card p{margin:12px 0;font-size:15px;line-height:1.55;color:#c3c0b8;flex:1}
+.es-bad-cta{font-weight:700;text-decoration:none}
+.es-bad-note{margin:28px auto 0;max-width:820px;padding:18px 20px;border:1px solid #47443d;border-radius:10px;background:#181c20;line-height:1.6;color:#c3c0b8}
+.es-bad-note strong{color:#f7f4ec}
+@media(max-width:760px){.es-bad-grid{grid-template-columns:minmax(0,1fr)}.es-before-after{margin:36px 0 44px}}
+
+/* Teaser Home */
+.es-home-bad{max-width:980px;margin:0 auto;padding:56px 20px;text-align:center}
+.es-home-bad h2{margin:0 0 8px}
+.es-home-bad p{line-height:1.55}
+.es-home-bad-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0;position:relative}
+.es-home-bad-grid figure{margin:0;position:relative}
+.es-home-bad-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px;display:block}
+.es-home-bad-grid figcaption{position:absolute;top:10px;left:10px;padding:5px 9px;border-radius:999px;background:rgba(14,17,20,.85);color:#f7f4ec;font:700 11px/1.2 Arial,sans-serif;letter-spacing:.08em}
+.es-home-bad-link{font-weight:700;text-decoration:none;color:#d7b777}
+@media(max-width:680px){.es-home-bad{padding:40px 16px}.es-home-bad-grid{grid-template-columns:1fr}}
+
+/* Rifinitura schede: Intervento/Risultato, nota CTA, riquadro "Mandaci una foto" */
+.es-bad-card .es-bad-meta{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 14px}
+.es-bad-meta div{padding:10px 12px;border-radius:8px;background:#0e1114;border:1px solid #2c2a26}
+.es-bad-meta dt{margin-bottom:4px;color:#d7b777;font:700 11px/1.3 Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+.es-bad-meta dd{margin:0;font-size:14px;line-height:1.5;color:#c3c0b8}
+.es-bad-card p{flex:0 0 auto}
+.es-bad-actions{margin-top:auto}
+.es-bad-cta-note{display:inline;margin-left:10px;font-size:13px;color:#a9a59c}
+.es-photo-cta{margin:32px auto 0;max-width:980px;padding:24px 26px;display:flex;align-items:center;justify-content:space-between;gap:24px;border:1px solid #d7b777;border-radius:12px;background:#181c20}
+.es-photo-cta h3{margin:0 0 6px;font:700 clamp(22px,3vw,30px)/1.2 Georgia,serif;color:#f7f4ec}
+.es-photo-cta p{margin:0;max-width:620px;line-height:1.6;color:#c3c0b8}
+.es-photo-cta .es-eyebrow{color:#d7b777;font:700 12px/1.6 Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin:0 0 6px}
+.es-photo-cta>a{flex:0 0 auto;padding:12px 18px;border-radius:999px;background:#d7b777;color:#0e1114;font-weight:700;text-decoration:none}
+@media(max-width:760px){.es-bad-card .es-bad-meta{grid-template-columns:1fr}.es-bad-cta-note{display:block;margin:6px 0 0}.es-photo-cta{display:block;padding:20px}.es-photo-cta>a{display:inline-block;margin-top:16px}}
+
+/* /assets/enjoy-punti-34.css */
+/* Integrazione punti 3 e 4: componenti isolati */
+.es34{max-width:1180px;margin:32px auto;padding:24px;color:#17212a;background:#faf8f3;border:1px solid #d8c69f;border-radius:16px}.es34 h2{font-size:clamp(1.5rem,3vw,2rem);margin-top:0}.es34-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.es34 article{background:white;border:1px solid #e5dfd3;border-radius:12px;overflow:hidden}.es34 img{display:block;width:100%;height:210px;object-fit:cover}.es34-body{padding:20px}.es34 h3{margin:0 0 12px}.es34 p{line-height:1.65}.es34 a{color:#6b4c14;text-decoration:underline;text-underline-offset:3px}.es34-note{font-size:.9rem}.es34-cta{display:inline-block;margin:10px 0;font-weight:700}@media(max-width:760px){.es34{margin:24px 12px;padding:18px}.es34-grid{grid-template-columns:1fr}}
+/* /assets/enjoy-menu-unificato.css */
+/* Enjoy Service — intestazione condivisa per homepage e lavori. */
+.es-site-header.es-site-header{display:block;position:relative;top:auto;inset-inline:auto;z-index:50;margin:0;padding:0;background:#101416;color:#f7f4ec;border:0;border-bottom:1px solid #33383a;box-shadow:none;width:100%;font:14px/1.5 Arial,sans-serif}
+.es-site-header .es-site-header__inner{max-width:1250px;margin:0 auto;padding:24px;display:flex;align-items:center;justify-content:space-between;gap:24px;box-sizing:border-box}
+.es-site-header .es-site-brand{display:block;flex:0 0 280px;max-width:100%;padding:0;margin:0;line-height:1;text-decoration:none}
+.es-site-header .es-site-brand img{display:block;width:280px;max-width:100%;height:auto;object-fit:contain;margin:0;border:0;border-radius:0}
+.es-site-header nav.es-site-menu{display:flex;align-items:center;justify-content:center;flex:1;flex-wrap:wrap;gap:12px 16px;margin:0;padding:0;min-width:0}
+.es-site-header .es-site-menu a{display:inline-flex;align-items:center;min-height:44px;margin:0;padding:0;text-decoration:none;color:#e5e3de;font:14px/1.4 Arial,sans-serif;white-space:nowrap;overflow-wrap:normal}
+.es-site-header .es-site-menu a:hover,.es-site-header .es-site-menu a[aria-current="page"]{color:#d7b777;text-decoration:underline;text-underline-offset:5px}
+.es-site-header .es-site-quote{display:inline-flex;flex-shrink:0;align-items:center;justify-content:center;min-height:46px;padding:12px 20px;background:#d7b777;color:#171512;border:1px solid #d7b777;border-radius:5px;text-decoration:none;font:700 14px/1.4 Arial,sans-serif;white-space:nowrap;box-sizing:border-box}
+.es-site-header a:focus-visible{outline:3px solid #efcf8d;outline-offset:4px}
+@media(max-width:1100px){.es-site-header .es-site-header__inner{flex-wrap:wrap;gap:14px;padding-block:18px}.es-site-header nav.es-site-menu{order:3;flex-basis:100%;justify-content:flex-start;border-top:1px solid #33383a;padding-top:8px}}
+@media(max-width:560px){.es-site-header .es-site-header__inner{padding:14px 18px;gap:12px}.es-site-header .es-site-brand{flex-basis:190px;flex-shrink:1}.es-site-header .es-site-brand img{width:190px}.es-site-header .es-site-quote{font-size:12px;padding:10px 12px;min-height:44px}.es-site-header nav.es-site-menu{gap:2px 16px}.es-site-header .es-site-menu a{font-size:13px}}
+@media(max-width:360px){.es-site-header .es-site-brand{flex-basis:160px}.es-site-header .es-site-quote{padding:10px 8px}}
