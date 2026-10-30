@@ -353,17 +353,29 @@
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/zone/sesto-san-giovanni.html</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000056055.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/zone/bresso.html</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000053804.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/zone/cologno-monzese.html</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000197678.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://enjoy-service-cinisello-balsamo.netlify.app/zone/brugherio.html</loc>
     <lastmod>2026-10-30</lastmod>
+    <image:image>
+      <image:loc>https://enjoy-service-cinisello-balsamo.netlify.app/assets/lavori/1000242462.webp</image:loc>
+    </image:image>
   </url>
 </urlset>
