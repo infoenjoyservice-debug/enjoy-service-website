@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://enjoy-service-cinisello-balsamo.netlify.app/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Servizi",
+      "item": "https://enjoy-service-cinisello-balsamo.netlify.app/servizi/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Pulizie uffici",
+      "item": "https://enjoy-service-cinisello-balsamo.netlify.app/servizi/pulizie-uffici/"
+    }
+  ]
+}

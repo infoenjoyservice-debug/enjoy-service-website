@@ -1,0 +1,22 @@
+# Checklist di integrazione
+
+- [ ] Inserire head SEO homepage
+- [ ] Inserire JSON-LD LocalBusiness homepage
+- [ ] Verificare URL canonical homepage
+- [ ] Aggiornare title/meta delle pagine servizio
+- [ ] Aggiornare title/meta delle landing servizio+città
+- [ ] Aggiornare title/meta delle pagine /zone/
+- [ ] Verificare che ogni pagina indicizzabile abbia canonical verso sé stessa
+- [ ] Inserire BreadcrumbList nelle pagine interne
+- [ ] Inserire Service JSON-LD nelle principali pagine servizio
+- [ ] Collegare servizio ↔ servizio+città ↔ zona
+- [ ] Migliorare anchor text nei blocchi locali
+- [ ] Rinominare progressivamente le immagini
+- [ ] Correggere ALT immagini
+- [ ] Preparare og:image reali
+- [ ] Pubblicare robots.txt
+- [ ] Generare sitemap.xml reale con tutte le URL canoniche
+- [ ] Controllare 404 e redirect
+- [ ] Verificare il sito in Search Console
+- [ ] Controllare query duplicate tra homepage, zone e landing
+- [ ] Non creare nuove landing finché non si analizzano i dati
