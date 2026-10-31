@@ -3,3 +3,9 @@
 /zone/milano-servizi/ /zone/milano/ 301!
 /zone/milano-servizi.html /zone/milano/ 301!
 /zone/milano.html /zone/milano/ 301!
+
+# SEO: /servizi/ is the only canonical URL of the Servizi section.
+# /servizi (no slash) is redirected to /servizi/ by Netlify pretty URLs automatically;
+# an explicit "/servizi /servizi/" rule would loop because of trailing-slash normalization.
+/servizi.html /servizi/ 301!
+/servizi/index.html /servizi/ 301!
