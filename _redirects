@@ -9,3 +9,13 @@
 # an explicit "/servizi /servizi/" rule would loop because of trailing-slash normalization.
 /servizi.html /servizi/ 301!
 /servizi/index.html /servizi/ 301!
+
+# Area pages from the "SEO Milano TOP 2.0" package: the site keeps them under /zone/.
+/aree-servite /zone/ 301!
+/aree-servite/ /zone/ 301!
+/aree-servite/sesto-san-giovanni/ /zone/sesto-san-giovanni.html 301!
+/aree-servite/bresso/ /zone/bresso.html 301!
+/aree-servite/cologno-monzese/ /zone/cologno-monzese.html 301!
+/aree-servite/monza/ /zone/monza.html 301!
+/aree-servite/milano-nord/ /zone/milano-nord/ 301!
+/aree-servite/* /zone/ 301!
