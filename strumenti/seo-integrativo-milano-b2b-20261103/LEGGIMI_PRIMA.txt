@@ -1,0 +1,40 @@
+ENJOY SERVICE SRL — ZIP INTEGRATIVO CORREZIONI SEO MILANO / B2B
+Data: 03/11/2026
+
+CONTENUTO DEL PACCHETTO
+Questa è una patch integrativa con percorsi relativi alla ROOT del sito:
+- servizi/index.html (catalogo aggiornato)
+- servizi/pulizie-capannoni-magazzini/index.html (nuova pagina)
+- servizi/pulizia-vetri-vetrate/index.html (nuova pagina)
+- servizi/pulizie-post-trasloco/index.html (nuova pagina)
+- SEO/sitemap.xml (sitemap aggiornata, da usare come riferimento per aggiornare quella nella root)
+
+CORREZIONI APPLICATE
+1. Il catalogo collega soltanto servizi confermati e pagine esistenti nel progetto fornito.
+2. I link interni per uffici, condomini, negozi, appartamenti e post-ristrutturazione usano i percorsi presenti nell'archivio sorgente.
+3. Le nuove pagine non rimandano agli anchor homepage #contatti o #azienda non verificati.
+4. Rimosse le destinazioni /privacy/ e /cookie-policy/ dalle nuove pagine perché non risultavano presenti nell'archivio sorgente esaminato.
+5. Non si sostituiscono /impresa-pulizie-milano/ né /zone/milano/: la pagina Milano principale va scelta usando Search Console. La pagina /zone/milano/ è mantenuta come collegamento territoriale.
+6. La sitemap allegata conserva gli URL del file sorgente fornito e aggiunge le nuove pagine.
+
+COME INTEGRARE
+IMPORTANTE: questo è uno ZIP INTEGRATIVO, NON è un sito completo.
+- Estrai il contenuto dello ZIP.
+- Copia la cartella "servizi" nella cartella ROOT del progetto del sito, unendo le cartelle e sostituendo SOLO servizi/index.html. Non cancellare le altre pagine in /servizi/.
+- Per la sitemap: confronta SEO/sitemap.xml con sitemap.xml nella ROOT e aggiorna la sitemap ROOT preservando eventuali URL più recenti che non compaiono nell'allegato. Non caricare SEO/sitemap.xml come cartella pubblica.
+- Mantieni assets, immagini, CSS, JS, funzioni e configurazioni esistenti.
+- Se usi Netlify con Git collegato: applica i file al repository e fai commit/push. Se usi il deploy manuale: estrai e carica la cartella ROOT completa del sito (non caricare questo ZIP integrativo da solo).
+- Non modificare netlify.toml o build settings per questa patch.
+
+DOPO L'INTEGRAZIONE
+- Controlla che le 4 URL rispondano HTTP 200.
+- Controlla title, meta description, canonical, un solo H1 e link WhatsApp/telefono.
+- Verifica desktop e mobile.
+- Controlla che /servizi/ non abbia link rotti.
+- Invia la sitemap ROOT aggiornata a Search Console.
+
+PROTEZIONE SEO MILANO
+Non fare redirect, noindex, cancellazioni o modifiche canonical su /impresa-pulizie-milano/ e /zone/milano/ in questa fase. Prima confronta Search Console ultimi 6 mesi (query, clic, impressioni, CTR, posizione) e backlink/link interni.
+
+LIMITI E NOTA SUL DEPLOY FALLITO
+Il pacchetto non è stato caricato su Netlify da ChatGPT. Non posso vedere il log del deploy. Se il deploy fallisce ancora, serve il testo del Deploy log: il problema può dipendere dalla configurazione o dal metodo di pubblicazione e non necessariamente da questi HTML.
