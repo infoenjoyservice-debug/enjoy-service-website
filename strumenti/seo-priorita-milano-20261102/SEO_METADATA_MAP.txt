@@ -1,0 +1,34 @@
+SEO METADATA MAP - 31/10/2026
+
+GERARCHIA APPROVATA 02/11/2026
+Priorità principale: Milano città tramite /zone/milano/.
+Ruolo homepage: sede e radicamento locale a Cinisello Balsamo; non duplicare la landing Milano.
+
+HOME
+Title: Impresa di pulizie a Cinisello Balsamo | Enjoy Service
+H1: Impresa di pulizie e multiservizi a Cinisello Balsamo
+
+SERVIZI
+Pulizie uffici: Cinisello Balsamo, Milano e Monza
+Pulizie condomini: Cinisello Balsamo, Milano e Monza
+Pulizie appartamenti: Cinisello Balsamo, Milano e Monza
+Post-ristrutturazione: Cinisello, Milano e Monza
+Negozi: Cinisello Balsamo, Milano e Monza
+B&B: Cinisello Balsamo e Milano
+Giardinaggio: Cinisello Balsamo e Milano
+Portineria: Cinisello Balsamo e Milano
+Manutenzioni: Cinisello Balsamo e Milano
+Traslochi e sgomberi: Cinisello Balsamo e Milano
+Ristrutturazioni: Cinisello Balsamo e Milano
+
+ZONE (ORDINE DI PRIORITÀ SEO)
+Milano: impresa di pulizie - landing principale per Milano città (/zone/milano/)
+Cinisello Balsamo: impresa di pulizie - sede e radicamento locale
+Monza: impresa di pulizie
+Monza e Brianza: impresa di pulizie
+Sesto San Giovanni: impresa di pulizie
+
+LANDING COMMERCIALI
+Servizi per amministratori di condominio: focus B2B locale
+Sgomberi Cinisello: focus lead ad alta intenzione
+Servizio+località esistenti: mantenuti, senza crearne automaticamente altri.

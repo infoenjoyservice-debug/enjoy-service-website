@@ -1,0 +1,21 @@
+CHANGELOG SEO - 31/10/2026
+
+1. Metadata:
+- Rafforzati title/meta/H1 di home, servizi principali, servizi complementari e principali pagine territoriali.
+- Migliorato il focus commerciale locale senza dichiarare sedi inesistenti.
+
+2. Structured data:
+- Rimossi duplicati Service/BreadcrumbList dalle pagine servizio.
+- Conservato un blocco Service e un BreadcrumbList validi per pagina.
+
+3. Sitemap:
+- Rigenerata da URL canonical presenti nelle pagine.
+- 33 URL canonici inclusi.
+- Eliminati dal sitemap URL incoerenti rispetto ai canonical.
+- lastmod 2026-10-31.
+
+4. Robots:
+- Mantenuto Allow: / e riferimento alla sitemap.
+
+5. Contenuti:
+- Il pacchetto precedente conteneva già le sezioni SEO commerciali, FAQ, immagini, CTA e link interni; non sono state duplicate inutilmente.

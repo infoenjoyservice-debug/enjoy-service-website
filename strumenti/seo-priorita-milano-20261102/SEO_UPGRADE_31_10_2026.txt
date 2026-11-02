@@ -1,0 +1,58 @@
+ENJOY SERVICE SRL - SEO UPGRADE INTEGRATIVO
+Versione 31 ottobre 2026
+
+CONTENUTO
+Questo pacchetto aggiorna il precedente pacchetto SEO con:
+- title, meta description e H1 rafforzati per le principali pagine servizio e territoriali;
+- focus geografico Cinisello Balsamo / Milano / Monza dove coerente;
+- metadata dedicati per amministratori di condominio;
+- consolidamento dei blocchi JSON-LD duplicati Service/BreadcrumbList nelle pagine servizio;
+- sitemap rigenerata usando gli URL canonical effettivi presenti nelle pagine;
+- lastmod aggiornato al 31/10/2026;
+- robots.txt verificato e collegato alla sitemap;
+- documentazione di deploy e controllo.
+
+NON INCLUSO
+- Nessun redirect 301 automatico: il pacchetto non sostituisce eventuali _redirects, _headers o netlify.toml già presenti.
+- Nessuna cancellazione di landing servizio+località.
+- Nessuna modifica alle policy privacy/cookie.
+- Nessuna recensione, voto o dato commerciale inventato.
+- Nessuna promessa di copertura geografica oltre a quella già dichiarata dal sito.
+
+INSTALLAZIONE
+1. Conserva una copia del sito completo attualmente pubblicato.
+2. Estrai FILE_DA_UNIRE_AL_SITO.
+3. Unisci il contenuto nella cartella completa del sito e sostituisci i file omonimi.
+4. NON eliminare file esistenti che non sono presenti nel pacchetto.
+5. Pubblica la cartella completa aggiornata su Netlify.
+6. Controlla homepage, servizi, landing locali, modulo preventivo e WhatsApp.
+7. In Google Search Console invia/controlla sitemap.xml e richiedi nuova indicizzazione delle pagine principali modificate.
+
+CONTROLLO POST-DEPLOY
+- /robots.txt deve essere raggiungibile.
+- /sitemap.xml deve essere raggiungibile.
+- Ogni URL in sitemap deve restituire 200 e avere canonical coerente.
+- Controllare che le URL con ?utm_source=... abbiano canonical verso la URL pulita.
+- Controllare mobile a 390px.
+- Testare il modulo senza inviare dati reali se non necessario.
+- Verificare i link WhatsApp e telefono.
+- In Search Console confrontare 28/60/90 giorni con il periodo precedente.
+
+PRIORITA SEO (GERARCHIA APPROVATA DAL COMMITTENTE - 02/11/2026)
+1. Milano città: priorità SEO e commerciale principale; landing dedicata /zone/milano/ da proteggere e potenziare.
+2. Cinisello Balsamo: sede e radicamento locale; homepage e landing locali mantengono il focus locale senza sostituire la landing Milano.
+3. Monza e Monza Brianza: pagine territoriali di supporto con contenuti distinti.
+4. Sesto San Giovanni e comuni limitrofi: copertura territoriale secondaria.
+5. Servizi: uffici, condomini, appartamenti, negozi e post-ristrutturazione, con pagine specifiche collegate alle aree servite.
+6. Sgomberi e servizi complementari: solo se effettivamente erogati e senza sottrarre rilevanza alle pagine prioritarie.
+
+REGOLE DI PROTEZIONE MILANO
+- Non eliminare, rinominare o reindirizzare /zone/milano/.
+- Mantenere canonical assoluto della landing Milano verso https://enjoy-service-cinisello-balsamo.netlify.app/zone/milano/.
+- Mantenere title e H1 della landing Milano distinti da quelli della homepage.
+- La homepage può restare focalizzata sulla sede di Cinisello Balsamo: non trasformarla in una seconda landing identica per Milano città.
+- Rafforzare i collegamenti interni verso /zone/milano/ dalle pagine servizi pertinenti, con anchor naturali e non ripetitive.
+- Prima di ogni modifica a title, H1, canonical, slug o redirect, confrontare le query e le prestazioni in Search Console; non effettuare cambi massivi alla cieca.
+
+NOTA
+Le prime posizioni non sono garantite. L'obiettivo è aumentare pertinenza, CTR, copertura delle query commerciali e conversioni senza creare pagine duplicate.
