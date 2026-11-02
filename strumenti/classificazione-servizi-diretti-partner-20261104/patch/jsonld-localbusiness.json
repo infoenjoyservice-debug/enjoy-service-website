@@ -1,0 +1,144 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://enjoy-service-cinisello-balsamo.netlify.app/#azienda-enjoy-service",
+  "name": "Enjoy Service SRL",
+  "url": "https://enjoy-service-cinisello-balsamo.netlify.app/",
+  "telephone": "+393505764058",
+  "email": "info.enjoyservice@gmail.com",
+  "vatID": "IT14289780968",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Niccolò Machiavelli 22",
+    "addressLocality": "Cinisello Balsamo",
+    "postalCode": "20092",
+    "addressRegion": "MI",
+    "addressCountry": "IT"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Cinisello Balsamo"
+    },
+    {
+      "@type": "City",
+      "name": "Milano"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Provincia di Monza e della Brianza"
+    }
+  ],
+  "description": "Enjoy Service SRL svolge direttamente pulizie professionali, servizi per B&B, sgomberi, giardinaggio e portineria. Manutenzioni generali e ristrutturazioni sono disponibili tramite partner selezionati. Sede operativa a Cinisello Balsamo e interventi a Milano e nell’hinterland.",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Servizi Enjoy Service",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pulizie uffici e aziende"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pulizie condomini"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pulizie appartamenti"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pulizie post-ristrutturazione"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pulizie post-trasloco"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pulizie negozi"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pulizia vetri e vetrate"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pulizie capannoni e magazzini"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Servizi per B&B"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Sgomberi"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Giardinaggio"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Portineria"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Manutenzioni generali (servizio tramite partner)"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Ristrutturazioni (servizio tramite partner)"
+        }
+      }
+    ]
+  },
+  "sameAs": [
+    "https://aziende.virgilio.it/imprese-di-pulizia/cinisello-balsamo-mi/enjoyservicesrl-cinisellobalsamo",
+    "https://www.reteimprese.it/222683",
+    "https://www.tiktok.com/@enjoy.service.srl"
+  ],
+  "logo": "https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png",
+  "image": "https://enjoy-service-cinisello-balsamo.netlify.app/assets/brand/enjoy-service-logo.png"
+}
