@@ -1,0 +1,61 @@
+ENJOY SERVICE SRL — PACCHETTO INTEGRATIVO CORREZIONI SEO
+Data: 02/11/2026
+
+SCOPO
+Pacchetto integrativo da unire al sito esistente. NON è un sito completo e NON va pubblicato da solo.
+Le modifiche incluse:
+1) due nuove pagine per servizi confermati/da valorizzare:
+   - /servizi/pulizie-capannoni-magazzini/
+   - /servizi/pulizia-vetri-vetrate/
+2) aggiornamento del catalogo /servizi/ con link alle due pagine;
+3) sitemap aggiornata con le due nuove URL;
+4) istruzioni per proteggere la SEO Milano e controlli di rilascio.
+
+GERARCHIA SEO CONCORDATA
+- Milano città: priorità commerciale principale.
+- Cinisello Balsamo: sede operativa e radicamento locale.
+- Monza/Brianza e altri comuni: pagine territoriali di supporto.
+
+ATTENZIONE: DUE URL MILANO
+La verifica web del 02/11/2026 ha rilevato entrambe queste pagine online:
+- /impresa-pulizie-milano/
+- /zone/milano/
+
+Non è sicuro decidere un redirect o una canonicalizzazione senza esportare da Google Search Console:
+Prestazioni > Risultati di ricerca > Pagine e Query, ultimi 3/6/12 mesi, per entrambe le URL.
+Perciò questo pacchetto NON cambia canonical, title, H1, slug, redirect o contenuti delle due landing Milano.
+Prima del deploy, confrontare impression, clic, CTR, posizione, backlink e link interni.
+Scegliere una sola landing primaria dopo aver esaminato i dati. Se /impresa-pulizie-milano/ è la URL che già riceve la maggior parte di impression/clic e link, mantenerla primaria; non spostare il valore a /zone/milano/ senza piano di migrazione e monitoraggio.
+La scelta finale deve essere coerente in sitemap, navigazione e canonical. Nessun redirect automatico è incluso.
+
+FILE DA UNIRE
+La cartella FILE_DA_UNIRE_AL_SITO contiene solo i file da aggiungere/sostituire.
+- Unire le cartelle sotto FILE_DA_UNIRE_AL_SITO alla root del progetto Netlify.
+- Fare prima un backup integrale del sito corrente.
+- Sostituire /servizi/index.html con la versione inclusa.
+- Aggiungere le due cartelle delle nuove pagine.
+- Sostituire sitemap.xml solo dopo aver verificato che il file di partenza corrisponda alla sitemap del sito attualmente pubblicato.
+- NON cancellare file che non sono inclusi in questo pacchetto.
+- NON sostituire netlify.toml, _redirects, _headers, robots.txt, privacy, cookie policy, funzioni Netlify o configurazioni API.
+
+CONTENUTI E CLAIM
+- La pagina capannoni/magazzini descrive pulizie eseguite direttamente, come confermato dal committente.
+- La pagina vetri/vetrate è formulata con limiti espliciti su accessibilità e sicurezza; non promette lavori in quota.
+- Il pacchetto non rimuove B&B, sgomberi, verde, portineria, manutenzioni o ristrutturazioni dalle pagine esistenti perché non è stato autorizzato un intervento di cancellazione. Verificare quali servizi sono effettivamente offerti prima di promuoverli come core.
+- Nessun dato, recensione, prezzo o certificazione è stato inventato.
+
+CONTROLLI POST-DEPLOY
+1. Aprire entrambe le nuove URL e verificare risposta HTTP 200.
+2. Verificare title, H1, meta description e canonical.
+3. Verificare immagini, CSS, menu, CTA telefono, WhatsApp e modulo.
+4. Aprire /sitemap.xml e controllare che le due URL siano presenti una sola volta.
+5. Verificare ogni URL in sitemap con crawler o controllo HTTP: status 200, canonical coerente, noindex assente.
+6. Verificare da mobile (390 px) e desktop.
+7. In Search Console inviare la sitemap aggiornata; richiedere indicizzazione solo delle pagine modificate.
+8. Dopo 28 e 56 giorni confrontare clic, impression, CTR e posizione delle query Milano.
+
+LIMITI DEL PACCHETTO
+- Non è stato effettuato alcun deploy su Netlify.
+- Non sono stati testati moduli o API private.
+- Non sono disponibili dati privati Search Console/Analytics.
+- La pagina di Milano e i suoi metadati non sono stati modificati per evitare cambiamenti non supportati dai dati.
