@@ -1,0 +1,45 @@
+PIANO CORREZIONI HOMEPAGE - PRIORITA'
+
+P0 - COERENZA COMMERCIALE
+- Mantenere in primo piano pulizie uffici, aziende, condomini, negozi e gli altri servizi effettivamente erogati.
+- La frase hero condivisa includeva "Manutenzioni, verde e sgomberi con un unico referente". Tenerla solo se Enjoy Service eroga davvero questi servizi, direttamente o tramite partner chiaramente dichiarati.
+- Controllare tutte le card e le voci del catalogo JSON-LD: il markup strutturato deve descrivere contenuti reali e visibili.
+
+P1 - PRIORITA' B2B MILANO
+- Rendere chiara la proposta per uffici, aziende, negozi, condomini, capannoni e magazzini.
+- CTA primaria: richiesta sopralluogo/preventivo per servizio continuativo.
+- Spiegare in modo concreto frequenze, personalizzazione del piano, aree servite e modalita' di richiesta preventivo, senza inventare certificazioni, tempi di intervento o garanzie.
+- Milano citta' come priorita' commerciale; Cinisello Balsamo e comuni limitrofi come aree secondarie, coerentemente con la copertura reale.
+
+P1 - TITLE, DESCRIPTION, H1
+- Conservare un title descrittivo e naturale, evitando ripetizioni forzate di keyword.
+- Mantenere un solo H1 principale coerente con il servizio e l'area geografica.
+- La meta description deve descrivere servizi reali e invito al preventivo; non e' un fattore di ranking diretto, ma aiuta la presentazione nei risultati.
+
+P1 - PAGINE MILANO E RISCHIO SOVRAPPOSIZIONE
+Nel markup condiviso compaiono /zone/milano/ e /impresa-pulizie-milano/, oltre a pagine dedicate come /pulizie-uffici-milano e /pulizie-condomini-milano.
+- Non sono automaticamente duplicati: verificare intento, testo, title, H1, link interni e query Search Console.
+- Assegnare a ogni pagina un compito distinto: pagina territoriale generale, pagina commerciale principale o pagina servizio specifica.
+- Evitare pagine quasi identiche create solo cambiando il nome della citta'.
+- Non applicare canonical o redirect senza aver prima verificato traffico, impression, backlink e contenuti.
+
+P2 - ELEMENTI TECNICI
+- Verificare che ogni pagina abbia canonical assoluto verso se stessa, salvo casi motivati.
+- Controllare che robots.txt non blocchi pagine o risorse necessarie.
+- Verificare che sitemap XML contenga solo URL canonici, pubblicati, indicizzabili e con risposta HTTP 200.
+- Uniformare gli slash finali secondo la convenzione del sito e verificare che le varianti reindirizzino correttamente.
+- Controllare immagini, alt descrittivi, dimensioni dichiarate e caricamento lazy solo per immagini non prioritarie.
+
+P2 - CONVERSIONI E FIDUCIA
+- Testare invio reale del modulo Netlify Forms, ricezione notifica, honeypot e pagina /grazie/.
+- Verificare link telefono, email e WhatsApp da smartphone.
+- Controllare che informativa privacy e trattamento dati siano corretti e raggiungibili.
+- Usare recensioni autentiche e link alla fonte; non inserire valutazioni o recensioni inventate nei dati strutturati.
+
+ORDINE CONSIGLIATO
+1. Confermare i servizi realmente offerti.
+2. Diagnosticare le 4 esclusioni in Search Console.
+3. Verificare URL e pagine Milano sovrapposte.
+4. Correggere link, canonical e sitemap.
+5. Testare modulo e CTA.
+6. Pubblicare e poi richiedere indicizzazione degli URL corretti.

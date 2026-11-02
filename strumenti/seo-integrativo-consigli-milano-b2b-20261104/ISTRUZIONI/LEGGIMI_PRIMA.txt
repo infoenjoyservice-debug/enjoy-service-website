@@ -1,0 +1,22 @@
+ENJOY SERVICE SRL - ZIP INTEGRATIVO SEO
+Data: 04-11-2026
+
+SCOPO
+Questo pacchetto integra le raccomandazioni emerse dalla revisione del codice HTML della homepage condiviso in chat. E' un pacchetto di controllo e integrazione, NON una copia completa del sito e NON un deploy completo.
+
+CONTENUTI
+- SEO/PIANO_CORREZIONI_HOMEPAGE.txt: priorita' e interventi consigliati.
+- SEO/COERENZA_SERVIZI_E_SCHEMA.txt: controllo dei servizi pubblicizzati e dei dati strutturati.
+- SEARCH_CONSOLE/DIAGNOSI_4_URL_NON_INDICIZZATI.txt: procedura per diagnosticare le esclusioni in Search Console.
+- CONTROLLO_LINK/URL_DA_VERIFICARE.csv: elenco URL emersi dal markup fornito, da verificare sul sito pubblicato.
+- SEO/AGGIUNTA_SITEMAP.xml.txt: promemoria per integrare la sitemap senza sovrascrivere quella esistente.
+
+IMPORTANTE
+1. Non caricare questo ZIP direttamente su Netlify come se fosse il sito completo.
+2. Non sostituire la homepage attuale con una versione ricostruita senza avere il progetto sorgente aggiornato.
+3. Non rimuovere, reindirizzare o canonicalizzare pagine finche' non sono stati controllati URL, contenuti e dati Search Console.
+4. I servizi non confermati come svolti direttamente vanno verificati con l'azienda prima di mantenerli nel testo o nello schema.
+5. Il file URL_DA_VERIFICARE.csv e' una lista di controllo: gli URL non sono stati verificati live.
+
+APPLICAZIONE
+Aprire il progetto sorgente piu' recente. Usare i documenti come checklist per le correzioni. Dopo ogni modifica eseguire un test dei link, del modulo preventivi, della pagina grazie, dei canonical e della sitemap. Pubblicare solo dopo aver verificato il deploy.

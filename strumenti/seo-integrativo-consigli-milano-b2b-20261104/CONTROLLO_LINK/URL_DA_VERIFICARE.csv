@@ -1,0 +1,17 @@
+url,controllo richiesto,priorita,stato
+/zone/milano/,HTTP 200; canonical; contenuto distinto da pagina principale Milano; link interni,alta,da verificare
+/impresa-pulizie-milano/,HTTP 200; canonical; intento distinto da /zone/milano/,alta,da verificare
+/pulizie-uffici-milano,HTTP 200; canonical; contenuto e CTA specifici,alta,da verificare
+/pulizie-condomini-milano,HTTP 200; canonical; contenuto e CTA specifici,alta,da verificare
+/pulizie-appartamenti-milano/,HTTP 200; canonical; contenuto e CTA specifici,media,da verificare
+/storia-azienda,HTTP 200; canonical; link interni,media,da verificare
+/privacy/,HTTP 200; informativa aggiornata e accessibile,alta,da verificare
+/zone/cinisello-balsamo,HTTP 200; canonical; coerenza area servita,media,da verificare
+/zone/monza,HTTP 200; verificare eventuale duplicato con /zone/monza-brianza/,media,da verificare
+/zone/monza-brianza/,HTTP 200; verificare intento distinto da /zone/monza,media,da verificare
+/zone/sesto-san-giovanni,HTTP 200; contenuto locale utile,media,da verificare
+/zone/bresso,HTTP 200; contenuto locale utile,bassa,da verificare
+/zone/cologno-monzese,HTTP 200; contenuto locale utile,bassa,da verificare
+/zone/brugherio,HTTP 200; contenuto locale utile,bassa,da verificare
+/lavori/,HTTP 200; immagini e descrizioni reali; link interni,media,da verificare
+/grazie/,HTTP 200; esclusione da sitemap se non destinata all'indicizzazione; form testato,media,da verificare

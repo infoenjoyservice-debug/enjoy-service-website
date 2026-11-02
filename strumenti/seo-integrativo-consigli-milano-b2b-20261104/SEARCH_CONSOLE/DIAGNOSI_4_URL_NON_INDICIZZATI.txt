@@ -1,0 +1,31 @@
+DIAGNOSI DELLE 4 PAGINE NON INDICIZZATE
+
+Il solo numero "4" non identifica la causa. Per ciascuno dei quattro URL aprire Search Console > Indicizzazione > Pagine > motivo specifico.
+
+Raccogliere per ogni URL:
+1. URL esatto.
+2. Motivo di esclusione riportato da Google.
+3. Data dell'ultima scansione, se disponibile.
+4. URL canonico dichiarato dall'utente.
+5. URL canonico selezionato da Google, se disponibile.
+6. Presenza nella sitemap.
+7. Link interni che puntano alla pagina.
+8. Esito di Controllo URL: indicizzazione consentita? scansione consentita? recupero pagina?
+
+INTERPRETAZIONE RAPIDA
+- "Pagina con reindirizzamento": verificare destinazione e link interni; non serve indicizzare l'URL che reindirizza.
+- "Pagina alternativa con tag canonical appropriato": normalmente e' esclusa intenzionalmente; verificare che il canonical punti alla pagina desiderata.
+- "Duplicata, Google ha scelto un canonical diverso": confrontare contenuti, canonical, sitemap e link interni.
+- "Scansionata, attualmente non indicizzata": migliorare utilita'/unicita' e collegamenti interni; evitare richieste ripetute senza modifiche.
+- "Rilevata, attualmente non indicizzata": verificare accessibilita', link interni, sitemap e priorita' della pagina.
+- "Esclusa da noindex": verificare se il noindex e' intenzionale.
+- "Bloccata da robots.txt": verificare che il blocco sia voluto; robots.txt non e' uno strumento per deindicizzare una pagina.
+- "Errore 404 / soft 404 / errore server": correggere la risposta o il contenuto, oppure gestire il redirect solo se esiste una destinazione equivalente.
+
+NON FARE
+- Non inviare richieste di indicizzazione in massa prima di correggere la causa.
+- Non rimuovere pagine utili solo perche' non sono ancora indicizzate.
+- Non creare redirect verso la homepage per URL senza una pagina equivalente.
+
+OUTPUT DA PREPARARE
+Una tabella con i 4 URL, motivo, canonical Google, azione e priorita'. Dopo la correzione, testare il singolo URL e richiedere indicizzazione solo quando appropriato.
