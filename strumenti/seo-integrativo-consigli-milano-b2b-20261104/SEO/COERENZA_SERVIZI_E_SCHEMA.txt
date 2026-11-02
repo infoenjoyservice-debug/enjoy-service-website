@@ -1,0 +1,30 @@
+COERENZA SERVIZI E DATI STRUTTURATI
+
+Nel codice homepage condiviso risultavano servizi confermati e altre voci che richiedono conferma.
+
+SERVIZI INDICATI COME EFFETTIVAMENTE EROGATI (sulla base delle informazioni fornite):
+- pulizie uffici e aziende
+- pulizie negozi
+- pulizie condomini
+- pulizie appartamenti
+- pulizia vetri e vetrate
+- pulizie post-ristrutturazione
+- pulizie post-trasloco
+- pulizie capannoni e magazzini
+
+DA CONFERMARE PRIMA DI PUBBLICIZZARE COME SERVIZIO PROPRIO:
+- B&B
+- sgomberi
+- giardinaggio / cura del verde
+- portineria
+- manutenzioni
+- ristrutturazioni
+
+AZIONI
+- Se un servizio non e' svolto, rimuoverlo dalle pagine, dalle card, dal menu e dal JSON-LD.
+- Se e' svolto da partner, descrivere con trasparenza il modello (es. servizio tramite partner) e non rappresentarlo come prestazione diretta se non lo e'.
+- Il JSON-LD deve rispecchiare le informazioni visibili e verificabili nella pagina.
+- Verificare nome azienda, telefono, email, indirizzo, URL, logo, immagini e aree servite.
+- Non aggiungere orari, prezzi, certificazioni, numero di dipendenti o altre caratteristiche non confermate.
+- Valutare il tipo schema.org piu' specifico solo se appropriato. Non cambiare il tipo per ragioni SEO senza verificare che descriva davvero l'attivita'.
+- Evitare markup Review/AggregateRating se non rispetta le linee guida Google e se le recensioni non sono rappresentate in modo conforme.

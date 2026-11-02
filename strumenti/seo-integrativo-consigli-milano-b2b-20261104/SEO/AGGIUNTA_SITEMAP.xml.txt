@@ -1,0 +1,18 @@
+ISTRUZIONI SITEMAP
+
+Non sovrascrivere la sitemap gia' presente con questo promemoria.
+
+La sitemap finale deve contenere gli URL canonici effettivi del sito, non URL ipotetici o non pubblicati. Prima di inserirli verificare risposta HTTP 200, assenza di noindex, canonical coerente e contenuto utile.
+
+Non inserire normalmente:
+- URL che reindirizzano;
+- URL 404 o soft 404;
+- pagine noindex;
+- varianti duplicate non canoniche;
+- pagine di conferma /grazie/ se non devono comparire nei risultati.
+
+Dopo il deploy:
+1. Aprire https://enjoy-service-cinisello-balsamo.netlify.app/sitemap.xml (o il dominio canonico effettivamente configurato).
+2. Verificare che il file sia XML valido e che tutti gli URL appartengano al dominio canonico.
+3. Inviare/aggiornare la sitemap in Google Search Console.
+4. Controllare gli errori di lettura e gli URL scoperti.
