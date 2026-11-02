@@ -1,0 +1,11 @@
+CHECKLIST RAPIDA
+[ ] Backup completo del sito pubblicato
+[ ] Confronto GSC delle URL /impresa-pulizie-milano/ e /zone/milano/
+[ ] Verifica che il pacchetto di partenza sia la versione attualmente pubblicata
+[ ] Unione di FILE_DA_UNIRE_AL_SITO nella root del progetto
+[ ] Controllo che netlify.toml, _redirects, _headers e funzioni esistenti restino intatti
+[ ] Test nuove pagine su staging/preview
+[ ] Test modulo, telefono, WhatsApp e privacy
+[ ] Controllo sitemap e status 200 di tutte le URL
+[ ] Deploy solo dopo esito positivo
+[ ] Controllo Search Console dopo il deploy
