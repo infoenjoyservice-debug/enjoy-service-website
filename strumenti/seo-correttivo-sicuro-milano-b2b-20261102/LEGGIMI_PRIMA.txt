@@ -1,0 +1,40 @@
+ENJOY SERVICE SRL — ZIP CORRETTIVO PRUDENZIALE
+Data: 02/11/2026
+
+SCOPO
+Questa versione corregge i rischi individuati nel precedente ZIP integrativo, senza modificare pagine esistenti o prendere decisioni SEO irreversibili su Milano.
+
+COSA CONTIENE
+Solo tre nuove pagine proposte:
+- /servizi/pulizie-capannoni-magazzini/
+- /servizi/pulizia-vetri-vetrate/
+- /servizi/pulizie-post-trasloco/
+
+COSA È STATO ESCLUSO APPOSITAMENTE
+- /zone/milano/: NON sostituire ora. Esiste una possibile sovrapposizione con /impresa-pulizie-milano/. La pagina principale va scelta dopo il confronto Search Console.
+- /servizi/: NON sostituire ora. La versione precedente conteneva link a slug non verificati (es. /servizi/pulizie-uffici/ e /servizi/pulizie-condomini/).
+- Nessun redirect, canonical change, noindex o cancellazione di pagine esistenti.
+- Nessun sitemap completo: è incluso solo un frammento opzionale.
+
+MODIFICHE PRUDENZIALI
+- Le CTA principali delle nuove pagine portano direttamente a WhatsApp, evitando di dipendere dall'anchor /#contatti non ancora testata.
+- Il collegamento "Azienda" è stato sostituito con "Home" per evitare di dipendere dall'anchor /#azienda non verificata.
+- Le pagine restano proposte da integrare nel progetto completo, non pagine già pubblicate.
+
+PRIMA DEL DEPLOY
+1. Fare backup del progetto Netlify completo.
+2. Verificare che i tre percorsi non esistano già e non duplichino pagine esistenti.
+3. Verificare sul sito sorgente i link /servizi/, /privacy/ e /cookie-policy/ presenti nelle nuove pagine.
+4. Controllare che i contenuti descrivano esattamente il servizio effettivamente offerto.
+5. Testare su staging: desktop, mobile, telefono, WhatsApp, privacy/cookie, canonical e status HTTP 200.
+6. Solo dopo il deploy e la verifica HTTP 200, aggiungere le tre URL alla sitemap esistente.
+7. Non sostituire la sitemap completa con il frammento fornito.
+
+PROTEZIONE SEO MILANO
+Non modificare le URL:
+- /impresa-pulizie-milano/
+- /zone/milano/
+Confrontare in Google Search Console gli ultimi 6 mesi per pagina e query (clic, impressioni, CTR, posizione media); controllare link interni e backlink. Decidere solo dopo quale URL mantenere come pagina primaria e se serva consolidamento. Non cambiare canonical né fare redirect prima di questa analisi.
+
+LIMITI
+Questo ZIP non è il sito completo e non va caricato da solo su Netlify. Non include CSS/immagini originali, configurazioni, funzioni o accesso agli account. Non certifica ranking, indicizzazione, velocità, ricezione dei moduli o conversioni.
