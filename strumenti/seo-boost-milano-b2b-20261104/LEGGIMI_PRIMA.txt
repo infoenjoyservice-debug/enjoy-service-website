@@ -1,0 +1,25 @@
+PACCHETTO INTEGRATIVO SEO BOOST MILANO B2B — 04/11/2026
+
+CONTENUTO
+- guide/scegliere-impresa-pulizie-milano/index.html
+  Nuova guida informativa per aziende e professionisti, con collegamenti alla pagina Milano e al catalogo servizi.
+- SEO/AGGIUNTA_SITEMAP.xml.txt
+  Frammento da aggiungere al sitemap XML principale.
+
+INSTALLAZIONE
+1. Estrai il contenuto dello ZIP nella ROOT del progetto del sito (la cartella che contiene index.html).
+2. Non sostituire né cancellare file esistenti.
+3. Apri il sitemap.xml principale già presente nella root e aggiungi il blocco contenuto in SEO/AGGIUNTA_SITEMAP.xml.txt prima del tag di chiusura </urlset>.
+4. Controlla che non sia già presente lo stesso URL, per evitare duplicati.
+5. Pubblica il progetto completo su Netlify.
+6. Dopo la pubblicazione verifica:
+   https://enjoy-service-cinisello-balsamo.netlify.app/guide/scegliere-impresa-pulizie-milano/
+   e il sitemap.xml principale.
+
+NOTE SEO E LIMITI
+- Questa è una pagina informativa di supporto, non sostituisce la pagina commerciale /impresa-pulizie-milano/.
+- Non sono stati modificati canonical, redirect, robots.txt o pagine già posizionate.
+- I dati strutturati FAQ non sono stati aggiunti: Google limita la visualizzazione dei rich result FAQ e non è opportuno promettere risultati speciali.
+- La guida contiene collegamenti interni verso pagine già indicate nel progetto. Verifica che /impresa-pulizie-milano/ e /servizi/ siano ancora gli URL effettivi.
+- Il pacchetto non è un sito completo e non va caricato da solo come deploy manuale Netlify.
+- La pagina non garantisce posizionamenti o richieste; misura impressioni, clic e query in Search Console dopo la pubblicazione.
