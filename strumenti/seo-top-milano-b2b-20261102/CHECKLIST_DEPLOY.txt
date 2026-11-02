@@ -1,0 +1,16 @@
+CHECKLIST PRE-PUBBLICAZIONE
+[ ] Backup completo del progetto attualmente online.
+[ ] Confermare che il progetto di partenza sia quello realmente pubblicato.
+[ ] Confrontare /impresa-pulizie-milano/ e /zone/milano/ in Search Console.
+[ ] Non cambiare URL, canonical, redirect o noindex senza piano approvato.
+[ ] Integrare i file mantenendo netlify.toml, _redirects, _headers, functions e assets esistenti.
+[ ] Verificare che i link del catalogo puntino a pagine esistenti.
+[ ] Verificare pagina privacy e cookie policy.
+[ ] Testare su mobile, desktop e tastiera.
+[ ] Testare invio modulo con ricezione effettiva.
+[ ] Testare telefono e WhatsApp.
+[ ] Aggiornare sitemap esistente con sole URL pubblicate e 200.
+[ ] Verificare canonical, title, H1, meta description e dati strutturati.
+[ ] Deploy preview/staging prima del deploy live.
+[ ] Dopo pubblicazione, testare status 200 e Search Console.
+[ ] Annotare data deploy per confronto performance dopo 28 giorni.

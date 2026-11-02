@@ -1,0 +1,68 @@
+ENJOY SERVICE SRL — PACCHETTO INTEGRATIVO PRIORITÀ COMMERCIALI + SEO
+Data: 02/11/2026
+
+OBIETTIVO
+Aumentare richieste di preventivo qualificate, soprattutto da aziende, uffici, negozi e condomini a Milano città, senza perdere la presenza locale di Cinisello Balsamo.
+
+GERARCHIA STRATEGICA
+1. Milano città: priorità commerciale e SEO.
+2. Cinisello Balsamo: sede operativa e presidio locale.
+3. Monza e comuni limitrofi: pagine territoriali di supporto, con contenuti realmente distinti.
+4. Servizi specialistici: capannoni/magazzini, vetri/vetrate e pulizie dopo trasloco.
+
+CONTENUTO DEL PACCHETTO
+- FILE_DA_INTEGRARE/zone/milano/index.html
+  Sostituzione proposta della landing /zone/milano/. Mantiene lo slug e il canonical della pagina; testo orientato a preventivi e servizi effettivamente confermati.
+- FILE_DA_INTEGRARE/servizi/index.html
+  Sostituzione proposta del catalogo /servizi/. Elenca solo servizi confermati dall'azienda e linka le pagine dedicate.
+- FILE_DA_INTEGRARE/servizi/pulizie-capannoni-magazzini/index.html
+  Pagina dedicata, servizio confermato come eseguito direttamente.
+- FILE_DA_INTEGRARE/servizi/pulizia-vetri-vetrate/index.html
+  Pagina dedicata con limiti chiari su accessibilità e sicurezza.
+- FILE_DA_INTEGRARE/servizi/pulizie-post-trasloco/index.html
+  Nuova pagina per pulizia dopo trasloco. Non promette trasporto, facchinaggio o sgombero.
+- SITEMAP_URL_DA_AGGIUNGERE.txt
+  Frammento di URL da aggiungere alla sitemap esistente dopo il deploy.
+
+IMPORTANTISSIMO: NON È IL SITO COMPLETO
+Questo ZIP contiene file integrativi e sostituzioni mirate. Non caricarlo da solo su Netlify. Non sovrascrivere il progetto intero. Eseguire backup e unire i file nel progetto sorgente.
+
+PROTEZIONE MILANO — DECISIONE DA NON PRENDERE ALLA CIECA
+Nei materiali precedenti risultano due URL che possono intercettare intenti simili:
+- /impresa-pulizie-milano/
+- /zone/milano/
+Questo pacchetto mantiene /zone/milano/ e non crea redirect né modifica canonical dell'altra URL.
+Prima di consolidare, confrontare in Google Search Console ultimi 3-6 mesi:
+clic, impressioni, CTR, posizione media e query per entrambe le URL. Controllare anche backlink e link interni.
+Se /impresa-pulizie-milano/ non esiste o non è indicizzata, non crearla solo per uniformità documentale.
+Se entrambe sono indicizzate e si sovrappongono, scegliere la URL con migliori segnali e preparare piano di redirect 301 soltanto dopo verifica.
+
+SERVIZI NON INSERITI NEL CATALOGO PRINCIPALE
+Non vengono promossi come confermati: B&B, giardinaggio, portineria, manutenzioni, ristrutturazioni, sgomberi/traslochi come servizio autonomo, palestre e altri servizi non confermati dall'azienda. Le pagine già online non vanno eliminate automaticamente: prima verificare domanda, traffico, lead, contratti e se l'attività è tuttora offerta. Se non offerta, decidere tra aggiornamento, noindex o redirect con mappatura individuale.
+
+CONVERSIONI
+Le CTA portano al modulo contatti già esistente /#contatti, al telefono e a WhatsApp. Non è stato inventato un nuovo endpoint o un modulo senza backend.
+Prima del deploy testare:
+- invio reale del modulo e ricezione email;
+- click telefono e WhatsApp da smartphone;
+- privacy/cookie e consenso;
+- tracciamento eventi, se Analytics/Tag Manager è configurato.
+
+CONTROLLI TECNICI
+- Verificare che /servizi/ e /zone/milano/ rispondano 200.
+- Controllare canonical assoluti e coerenti con slash finale.
+- Aggiornare sitemap esistente senza cancellare le URL ancora valide.
+- Controllare robots.txt, redirect, headers e funzioni Netlify: non sostituire i file esistenti.
+- Testare CSS, immagini, favicon, link e layout mobile.
+- Verificare dati strutturati con Rich Results Test e Schema Markup Validator.
+- Dopo deploy, inviare sitemap in Search Console e ispezionare le nuove URL.
+
+DATI AZIENDALI UTILIZZATI
+Enjoy Service SRL
+Sede operativa: Via Niccolò Machiavelli 22, 20092 Cinisello Balsamo (MI)
+P. IVA: 14289780968
+Telefono: 350 576 4058
+Email: info.enjoyservice@gmail.com
+
+NOTA SULLA VALUTAZIONE
+Questo pacchetto è stato preparato usando i dati aziendali e i servizi confermati in conversazione e la struttura dei precedenti ZIP. Non include accesso a Search Console, Analytics o Netlify; non certifica ranking, velocità, moduli o indicizzazione. Le nuove pagine richiedono test in staging prima della pubblicazione.
