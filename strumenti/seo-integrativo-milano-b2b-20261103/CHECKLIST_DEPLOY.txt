@@ -1,0 +1,10 @@
+CHECKLIST
+[ ] Backup del sito completo.
+[ ] Integrare i file nella root del progetto, senza caricare questo ZIP da solo.
+[ ] Unire la cartella servizi senza cancellare le altre sottocartelle.
+[ ] Aggiornare sitemap.xml root preservando URL più recenti.
+[ ] Verificare le 4 URL in HTTP 200.
+[ ] Verificare link interni e contatti.
+[ ] Testare mobile e desktop.
+[ ] Inviare sitemap aggiornata a Search Console.
+[ ] Lasciare invariate le due pagine Milano fino al confronto Search Console.
