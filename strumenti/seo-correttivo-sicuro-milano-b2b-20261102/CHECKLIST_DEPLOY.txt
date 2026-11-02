@@ -1,0 +1,12 @@
+CHECKLIST DEPLOY — ZIP CORRETTIVO
+[ ] Backup del progetto completo.
+[ ] Verifica che le tre nuove URL non esistano già.
+[ ] Verifica link a /servizi/, /privacy/, /cookie-policy/.
+[ ] Verifica testi e prestazioni effettivamente eseguite.
+[ ] Test staging desktop e mobile.
+[ ] Test WhatsApp e telefono.
+[ ] Verifica title, description, canonical, H1 e status 200.
+[ ] Aggiungi alla sitemap solo URL pubblicate e verificate.
+[ ] Invia sitemap aggiornata a Search Console.
+[ ] Ispeziona le nuove URL in Search Console.
+[ ] Non toccare le due URL Milano finché non è concluso il confronto dati.

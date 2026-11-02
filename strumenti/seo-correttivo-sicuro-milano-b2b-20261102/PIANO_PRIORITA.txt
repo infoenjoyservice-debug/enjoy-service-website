@@ -1,0 +1,6 @@
+PIANO PRIORITÀ
+P1 — Protezione Milano: confronto Search Console tra /impresa-pulizie-milano/ e /zone/milano/ prima di qualsiasi modifica.
+P2 — Nuove pagine B2B: valutare e integrare la pagina capannoni/magazzini.
+P3 — Conversione: testare WhatsApp e telefono; verificare in seguito il modulo del sito.
+P4 — Servizi: vetri/vetrate e post-trasloco solo se le prestazioni e i limiti descritti corrispondono all'operatività reale.
+P5 — Catalogo: correggere /servizi/ solo dopo aver verificato l'inventario effettivo degli URL esistenti.
