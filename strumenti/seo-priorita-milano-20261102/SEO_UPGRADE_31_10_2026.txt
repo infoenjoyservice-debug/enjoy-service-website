@@ -48,7 +48,7 @@ PRIORITA SEO (GERARCHIA APPROVATA DAL COMMITTENTE - 02/11/2026)
 
 REGOLE DI PROTEZIONE MILANO
 - Non eliminare, rinominare o reindirizzare /zone/milano/.
-- Mantenere canonical assoluto della landing Milano verso https://enjoy-service-cinisello-balsamo.netlify.app/zone/milano/.
+- Mantenere canonical assoluto della landing Milano verso https://enjoyservicesrl.it/zone/milano/.
 - Mantenere title e H1 della landing Milano distinti da quelli della homepage.
 - La homepage può restare focalizzata sulla sede di Cinisello Balsamo: non trasformarla in una seconda landing identica per Milano città.
 - Rafforzare i collegamenti interni verso /zone/milano/ dalle pagine servizi pertinenti, con anchor naturali e non ripetitive.
