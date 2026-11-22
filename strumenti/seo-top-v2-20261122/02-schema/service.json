@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Pulizie uffici",
+  "serviceType": "Pulizia professionale di uffici",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Enjoy Service SRL",
+    "url": "https://enjoyservicesrl.it/"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Cinisello Balsamo"
+    },
+    {
+      "@type": "City",
+      "name": "Milano"
+    },
+    {
+      "@type": "City",
+      "name": "Monza"
+    }
+  ]
+}
