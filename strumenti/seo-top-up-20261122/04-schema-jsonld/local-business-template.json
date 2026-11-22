@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Enjoy Service SRL",
+  "url": "https://enjoyservicesrl.it/",
+  "telephone": "+39 350 576 4058",
+  "email": "info.enjoyservice@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Niccolò Machiavelli 22",
+    "addressLocality": "Cinisello Balsamo",
+    "addressRegion": "MI",
+    "postalCode": "20092",
+    "addressCountry": "IT"
+  },
+  "areaServed": [
+    "Cinisello Balsamo",
+    "Milano",
+    "Monza Brianza"
+  ],
+  "sameAs": []
+}

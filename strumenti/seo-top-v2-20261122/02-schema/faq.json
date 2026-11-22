@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Come posso richiedere un preventivo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Contatta Enjoy Service indicando comune, tipo di ambiente, servizio richiesto, frequenza e, se disponibili, alcune foto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Fate un sopralluogo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La valutazione dell'intervento può includere un sopralluogo in base alle caratteristiche del lavoro."
+      }
+    }
+  ]
+}
