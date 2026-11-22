@@ -6,7 +6,7 @@ import zipfile
 from pathlib import Path
 from urllib.parse import urlsplit
 
-OLD = 'enjoy-service-cinisello-balsamo.netlify.app'
+OLD = 'enjoyservicesrl.it'
 PATTERN = re.compile(r'(?:https?:)?//' + re.escape(OLD) + r'(?=[/\s\"\'<>?#]|$)', re.I)
 
 def main():
