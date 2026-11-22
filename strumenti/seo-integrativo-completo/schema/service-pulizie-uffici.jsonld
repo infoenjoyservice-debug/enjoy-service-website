@@ -1,12 +1,12 @@
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "@id": "https://enjoy-service-cinisello-balsamo.netlify.app/servizi/pulizie-uffici/#service",
+  "@id": "https://enjoyservicesrl.it/servizi/pulizie-uffici/#service",
   "name": "Pulizie uffici",
   "description": "Servizio di pulizia per uffici e ambienti di lavoro.",
   "provider": {
     "@type": "LocalBusiness",
-    "@id": "https://enjoy-service-cinisello-balsamo.netlify.app/#organization",
+    "@id": "https://enjoyservicesrl.it/#organization",
     "name": "Enjoy Service SRL"
   },
   "areaServed": [
@@ -19,5 +19,5 @@
       "name": "Milano"
     }
   ],
-  "url": "https://enjoy-service-cinisello-balsamo.netlify.app/servizi/pulizie-uffici/"
+  "url": "https://enjoyservicesrl.it/servizi/pulizie-uffici/"
 }
