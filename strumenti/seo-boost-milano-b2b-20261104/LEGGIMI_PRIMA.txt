@@ -13,7 +13,7 @@ INSTALLAZIONE
 4. Controlla che non sia già presente lo stesso URL, per evitare duplicati.
 5. Pubblica il progetto completo su Netlify.
 6. Dopo la pubblicazione verifica:
-   https://enjoy-service-cinisello-balsamo.netlify.app/guide/scegliere-impresa-pulizie-milano/
+   https://enjoyservicesrl.it/guide/scegliere-impresa-pulizie-milano/
    e il sitemap.xml principale.
 
 NOTE SEO E LIMITI

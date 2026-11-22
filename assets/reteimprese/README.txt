@@ -1,7 +1,7 @@
 # Integrazione Reteimprese — Enjoy Service SRL
 
 Pacchetto integrativo per il sito:
-https://enjoy-service-cinisello-balsamo.netlify.app/
+https://enjoyservicesrl.it/
 
 ## Contenuto
 
