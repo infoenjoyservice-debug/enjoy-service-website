@@ -1,3 +1,8 @@
+# Redirect permanente dal vecchio dominio Netlify al dominio principale.
+# Regole specifiche per homepage e pagine interne, sia HTTP sia HTTPS.
+http://enjoy-service-cinisello-balsamo.netlify.app/ https://enjoyservicesrl.it/ 301!
+http://enjoy-service-cinisello-balsamo.netlify.app/* https://enjoyservicesrl.it/:splat 301!
+https://enjoy-service-cinisello-balsamo.netlify.app/ https://enjoyservicesrl.it/ 301!
 https://enjoy-service-cinisello-balsamo.netlify.app/* https://enjoyservicesrl.it/:splat 301!
 
 /api/google-reviews /.netlify/functions/google-reviews 200
