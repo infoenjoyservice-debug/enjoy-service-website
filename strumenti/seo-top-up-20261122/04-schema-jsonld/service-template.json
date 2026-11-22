@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "NOME DEL SERVIZIO",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Enjoy Service SRL",
+    "url": "https://enjoyservicesrl.it/"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "LOCALITÀ"
+  },
+  "serviceType": "TIPOLOGIA SERVIZIO",
+  "url": "URL PAGINA"
+}

@@ -1,0 +1,21 @@
+Cluster,Keyword primaria,Intento,Priorità,URL consigliato
+Home,impresa di pulizie Milano,commerciale,P1,/
+Cinisello,impresa di pulizie Cinisello Balsamo,commerciale/local,P1,/zone/cinisello-balsamo/
+Milano,impresa di pulizie Milano,commerciale/local,P1,/zone/milano/
+Uffici Milano,pulizie uffici Milano,commerciale,P1,/servizi/pulizie-uffici-milano/
+Uffici Cinisello,pulizie uffici Cinisello Balsamo,commerciale/local,P1,/servizi/pulizie-uffici-cinisello-balsamo/
+Condomini Milano,pulizie condomini Milano,commerciale,P1,/servizi/pulizie-condomini-milano/
+Condomini Cinisello,pulizie condomini Cinisello Balsamo,commerciale/local,P1,/servizi/pulizie-condomini-cinisello-balsamo/
+Amministratori,impresa pulizie amministratori condominio Milano,B2B,P1,/servizi/amministratori-condominio/
+Post-ristrutturazione,pulizie post ristrutturazione Milano,commerciale,P1,/servizi/pulizie-post-ristrutturazione-milano/
+Appartamenti,pulizie appartamenti Milano,commerciale,P2,/servizi/pulizie-appartamenti-milano/
+Vetri,pulizia vetri Milano,commerciale,P2,/servizi/pulizia-vetri-vetrate-milano/
+Vetrate,pulizia vetrate Milano,commerciale,P2,/servizi/pulizia-vetri-vetrate-milano/
+Monza,impresa di pulizie Monza,commerciale/local,P2,/zone/monza/
+Uffici Monza,pulizie uffici Monza,commerciale/local,P2,/servizi/pulizie-uffici-monza/
+Condomini Monza,pulizie condomini Monza,commerciale/local,P2,/servizi/pulizie-condomini-monza/
+B&B,pulizie B&B Milano,commerciale,P3,/servizi/pulizie-bb-milano/
+Sgomberi,sgomberi Cinisello Balsamo,commerciale/local,P3,/servizi/sgomberi-cinisello-balsamo/
+Sesto,impresa di pulizie Sesto San Giovanni,commerciale/local,P3,/zone/sesto-san-giovanni/
+Bresso,impresa di pulizie Bresso,commerciale/local,P3,/zone/bresso/
+Cologno,impresa di pulizie Cologno Monzese,commerciale/local,P3,/zone/cologno-monzese/

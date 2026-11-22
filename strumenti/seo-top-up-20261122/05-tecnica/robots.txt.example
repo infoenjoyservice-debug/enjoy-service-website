@@ -1,0 +1,5 @@
+# Esempio da adattare e verificare prima del deploy
+User-agent: *
+Allow: /
+
+Sitemap: https://enjoyservicesrl.it/sitemap.xml
